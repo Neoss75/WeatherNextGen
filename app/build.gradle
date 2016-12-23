@@ -16,7 +16,7 @@ android {
         minSdkVersion 9
         //noinspection OldTargetApi
         targetSdkVersion 25
-        versionCode 47
+        versionCode 48
         versionName '1.08'
     }
     buildTypes {
