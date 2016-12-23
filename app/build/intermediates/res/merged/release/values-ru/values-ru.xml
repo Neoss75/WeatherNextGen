@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ОТКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="action_about">Справка</string>
+    <string name="action_settings">Настройки</string>
+    <string name="app_name">Weather NextGen</string>
+    <string name="input_ok">Путь</string>
+    <string name="label_service">Weather сервис</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="text_about">Справка по настройкам. \n\n
+    1.Путь к папке igo avic: нужно ввести путь к папке, в которой находится папка save, ведь именно
+    туда сервис будет записывать данные. При первом входе в настройки, программа сама попытается определить
+        путь. Нажмите Ок, если путь окажется правильным, программа сообщит об этом, в противном случае нужно
+        исправить на правильный путь и нажать Ок. \n\n
+    2.Языки: скачиваемый прогноз будет на выбраном языке. \n\n
+    3.Единицы измерения: скачанный прогноз будет представлен с выбранными единицами измерения. \n\n
+        4.Кпопка закрывать программу: если кнопка не включена, то при старте сервиса, программа не закроется
+        сама, ее можно будет закрыть вручную. При этом, после выхода из гены, нужно будет снова войти в сервис
+        и остановить его. При включенной опции, при старте сервиса, программа сама закроется и запустится
+        установленный гена, для этого ОБЯЗАТЕЛЬНО выбрать в следующем списке имя установленного пакета гены.
+        После выхода из гены, сервис в течении 10 секунд должен закрыться сам. Если имя установленного гены
+        выбрано не правильно, то сервис автоматически закроется через 10 секунд после запуска. \n\n
+        5.Список пакетов: возможные имена пакетов установленного гены. \n\n
+        6.Звук: будет проигрываться звук, в момент обновления прогноза сервисом. \n\n
+        7.Период обновления: время в минутах, через какое будет обновляться прогноз. \n\n
+    </string>
+    <string name="text_button_start">Запустить сервис</string>
+    <string name="text_button_stop">Остановить сервис</string>
+    <string name="text_close_app">Закрывать программу после запуска сервиса</string>
+    <string name="text_close_igo">Закрывать сервис после закрытия iGO</string>
+    <string name="text_close_screen">Закрывать сервис при выключенном экране</string>
+    <string name="text_common_profiles">Запись во все профили</string>
+    <string name="text_forum_topic">Тема на 4pda</string>
+    <string name="text_humidity">Влажность</string>
+    <string name="text_lang">Язык</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_play_sound">Проигрывать звук после обновления погоды</string>
+    <string name="text_pressure">Давление</string>
+    <string name="text_pressure_units">мм/рт.ст.</string>
+    <string name="text_restart">Перезапустите для применения</string>
+    <string name="text_run">Запущен</string>
+    <string name="text_service">Сервис</string>
+    <string name="text_stop">Остановлен</string>
+    <string name="text_time_update">Время обновления прогноза, минут</string>
+    <string name="text_to_path">Путь к IGO</string>
+    <string name="text_toast_app_found">Программа найдена</string>
+    <string name="text_toast_no">Путь не найден</string>
+    <string name="text_toast_no_app">Имя пакета не найдено!</string>
+    <string name="text_toast_no_internet">Нет интернета</string>
+    <string name="text_toast_ok">Путь найден</string>
+    <string name="text_type">Тип:</string>
+    <string name="text_unit">Единицы</string>
+    <string name="text_wind">Ветер</string>
+    <string name="text_wind_units">м/с</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="title_activity_about">Справка</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Laika apstākļi NextGen</string>
+    <string name="action_settings">Iestatījumi</string>
+    <string name="text_button_stop">Apturēt servisu</string>
+    <string name="text_button_start">Palaist servisu</string>
+    <string name="text_pressure">Spiediens:</string>
+    <string name="text_humidity">Mitrums:</string>
+    <string name="text_wind">Vējš:</string>
+    <string name="text_to_path">Norādi ceļu uz iGO Avic:</string>
+    <string name="input_ok">Labi</string>
+    <string name="text_toast_ok">Norādītais ceļš ir atrasts</string>
+    <string name="text_toast_no">Norādītais ceļš nav atrasts</string>
+    <string name="text_toast_no_internet">Nav interneta pieslēguma</string>
+    <string name="text_service">Serviss:</string>
+    <string name="text_run">Palaists</string>
+    <string name="text_stop">Apturēts</string>
+    <string name="text_lang">Valoda:</string>
+    <string name="text_unit">Mērvienības:</string>
+    <string name="action_about">Par</string>
+    <string name="text_close_app">Aizvērt aplikāciju pēc servisa palaišanas</string>
+    <string name="label_service">Laika apstākļu serviss</string>
+    <string name="text_play_sound">Skaņas signāls, kad tiek atjaunota laika apstākļu informācija</string>
+    <string name="text_time_update">Pēc cik minūtēm atjaunot laika apstākļu informāciju:</string>
+    <string name="title_activity_about">Par</string>
+    <string name="text_about">Uzstādīšanas palīdzība. \n\n 1.Put folder igo avic: you need to enter the path to the folder containing the folder save, after all to the service will record data. When you first log into the settings, the program will try to determine way. Click OK, if the path is correct, the program will inform about it, otherwise you need Fix on the right path, and click OK. \n\n 2.Lang: downloadable forecast will be the chosen language. \n\n 3.Units: Download the forecast will be presented to the selected measurement units. \n\n 4.Button close the program: If the button is not enabled, when you start the service, the program will not be closed itself, it can be closed manually. Thus, after the release of the genes will have to log back in service and stop it. When this option is enabled, when you start the service, the program will close and the start gene set, this MUST be selected in the following list the name of the installed package genes. After the release of the genes, the service for 10 seconds should close itself. If the name specified genes is not chosen correctly, the service will close automatically after 10 seconds after launch. \n\n 5.List packages: the possible names of packages installed genes. \n\n 6.Sound: will play a sound when an updated forecast service. \n\n 7.Period update: the number of minutes after a forecast will be updated. \n\n</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="text_type">Tips:</string>
+    <string name="text_restart">Pārstartē servisu, lai stātos spēkā</string>
+    <string name="text_forum_topic">4pda foruma tēma</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_wind_units">m.s.</string>
+
+</resources>

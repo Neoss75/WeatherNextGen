@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Orai Avicsync</string>
+<string name="action_settings">Nustatymai</string>
+<string name="text_button_stop">Išjungti servisą</string>
+<string name="text_button_start">Įjungti servisą</string>
+<string name="text_pressure">Slėgis</string>
+<string name="text_humidity">Drėgmė</string>
+<string name="text_wind">Vėjas</string>
+<string name="text_to_path">Kelias iki iGO Avic</string>
+<string name="input_ok">Ok</string>
+<string name="text_toast_ok">Kelias rastas</string>
+<string name="text_toast_no">Kelias nerastas</string>
+<string name="text_toast_no_internet">Nėra interneto</string>
+<string name="text_service">Servisas</string>
+<string name="text_run">Veikia</string>
+<string name="text_stop">Neveikia</string>
+<string name="text_lang">Kalbos</string>
+<string name="text_unit">Vienetai</string>
+<string name="action_about">Apie</string>
+<string name="text_close_app">Uždaryti programą po serviso įjungimo</string>
+<string name="label_service">Orų servisas</string>
+<string name="text_play_sound">Pranešti atnaujinus orus</string>
+<string name="text_time_update">Atnaujinimo intervalas,min</string>
+<string name="title_activity_about">Apie</string>
+<string name="text_about">
+Pagalba nustatymams. \n\n     1.Kelias iki katalogo IGO AVIC:    \n
+Jūs turite nurodyti kelią iki katalogo save, nes būtent ten servisas įrašynės duomenis. Kada jūs pirmą kartą įeisite į  nustatymus, programa pati bandys nustatyti kelią. Paspauskite ok. Jei kelias yra teisingas, programa informuos apie tai, kitu atveju jūs turėsite nurodyti teisingą kelią ir paspausti ok. \n\n     2.Kalbos: \n    atsiųnčiamoms orų prognozėms bus parinkta kalba. \n\n     3.Vienetai: \n   atsiųstai prognozei bus pritaikyti pasirinkti matavimo vienetai. \n\n         4.Mygtukas uždaryti programą:  \n   jei mygtukas neįjungtas, tai paleidžiant servisą, programa pati neužsidarys, ją galima bus uždaryti rankiniu būdu. Taigi po išėjimo iš Nextgen, turėsite vėl įeiti į servisą ir jį sustabdyti. Kai ši parinktis įjungta,kai paleidžiate servisą, programa pati užsidarys ir pasileis įdiegta Nextgen versija, dėl to būtinai turi būti pasirinktas iš žemiau pateikto sąrašo įdiegto Nextgen paketo vardas. Po išėjimo iš Nextgen servisas už 10 sekundžių tūrėtų išsijungti pats. Jei nurodytas Nextgen vardas yra pasirinktas neteisingai, paslauga bus automatiškai uždaryta po 10 sekundžių nuo paleidimo. \n\n         5.Sąrašo paketai:    \n    Galimi pilni paketų pavadinimai Jūsų įdiegtam Nextgen. \n\n 6.Garsas:   \n
+Kai atsinaujins orų prognozė girdėsite garsą. \n\n         7.Laiko atnaujinimai:   \n    Kas kiek laiko bus atnaujinti orai minutėmis. \n\n
+</string>
+<string name="text_opm">openweathermap.org</string>
+<string name="text_wu">weatherandeground.com</string>
+<string name="text_type">Tipas:</string>
+<string name="text_restart">Perkrauti, kad įsigaliotų</string>
+<string name="text_forum_topic">Tema forume 4pda</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_wind_units">m.s.</string>
+</resources>

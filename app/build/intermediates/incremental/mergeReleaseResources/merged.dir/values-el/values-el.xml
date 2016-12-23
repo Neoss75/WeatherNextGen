@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Προβολή όλων"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Επιλέξτε κάποια εφαρμογή"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Κοινή χρήση με"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Κοινή χρήση με %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string name="action_about">Πληροφορίες</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="app_name">Καιρός NextGen Avic</string>
+    <string name="input_ok">Εντάξει</string>
+    <string name="label_service">Υπηρεσία Καιρού</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Αναζήτηση"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_about">
+        Βοήθεια εγκατάστασης. \n\n
+      1.Βάλτε τον φάκελο iGO NextGen (Avic): Θα χρειαστεί να εισαγάγετε την διαδρομή πού βρήσκετε ο φάκελος iGO AVIC.
+      Κάντε αποθήκευση καί το πρόγραμμα θα καταγράψει την διαδρομή.
+	  Όταν συνδέεστε για πρώτη φορά στις ρυθμίσεις, το πρόγραμμα θα προσπαθήσει να καθορίσει την διαδρομή τού φακέλου iGO AVIC. 
+	  Κάντε κλικ στο OK, εάν η διαδρομή είναι σωστή, καί το πρόγραμμα θα σας ενημερώσει γι \'αυτό.
+	  Αλλιώς θα πρέπει να καθορίσετε τήν σωστή διαδρομή τού φακέλου iGO NextGen (Avic), και κάντε κλικ στο OK. \n\n
+      2.Γλώσσα:  Διαθέσιμη για λήψη πρόβλεψης καιρού θα είναι η γλώσσα που επιλέξατε. \n\n
+      3.Μονάδες: Κατεβάστε την πρόβλεψης του καίρου πού θα παρουσιαστεί σε επιλεγμένες μονάδες μέτρησης. \n\n
+      4.Κουμπί διακοπή πρόγραμματος: Αν το κουμπί δεν είναι ενεργοποιημένο, όταν ξεκινάτε την υπηρεσία πρόβλεψης καιρού, 
+      το πρόγραμμα δεν θα πρέπει να κλείνει μόνο του, αλλά μπορεί να κλείσει με το χέρι. 
+      Μετά την πρόβλεψης καιρού, θα πρέπει να συνδεθείτε ξανά σε λειτουργία και να το σταματήσετε.
+      Όταν η επιλογή διακοπή πρόγραμματος είναι ενεργοποιημένη, και ξεκινάτε την υπηρεσία πρόβλεψης καιρού, το πρόγραμμα θα κλείσει και η πρόβλεψης καιρού θά γίνει από αρχή.
+      Για αυτό πρέπει να επιλέγονται από τον ακόλουθο κατάλογο το όνομα του εγκατεστημένου πακέτου πρόβλεψης καιρού.
+      Μετά την πρόβλεψης καιρού, η υπηρεσία για 10 δευτερόλεπτα θα πρέπει να κλείσει η ίδια.
+      Αν το όνομα της υπηρεσίας που καθορίζη την πρόβλεψης καιρού δεν έχει επιλεγεί σωστά, η υπηρεσία θα κλείσει αυτόματα μετά από 10 δευτερόλεπτα. \n\n
+      5.Λίστα πακέτων: Τα πιθανά ονόματα των πακέτων που είναι εγκατεστημένα τα εικονίδια πρόβλεψης καιρού. \n\n
+      6.Ήχος: θα παίξει ένας ήχος όταν ενημερωμέρονετε η πρόβλεψη της υπηρεσίας καιρού. \n\n
+      7.Περίοδος ενημέρωσης: Σε πόσα λεπτά θα ενημερώνεται η προβλέψει του καιρού.
+    </string>
+    <string name="text_button_start">Έναρξη Υπηρεσίας</string>
+    <string name="text_button_stop">Διακοπή Υπηρεσίας</string>
+    <string name="text_close_app">Κλείστε το πρόγραμμα μετά την έναρξη</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_forum_topic">Forum topic 4pda</string>
+    <string name="text_humidity">Υγρασία</string>
+    <string name="text_lang">Γλώσσα</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_play_sound">Αναπαραγωγή ήχου μετά την την ενημέρωση του καιρού</string>
+    <string name="text_pressure">Πίεση</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_restart">Επανεκκινήστε την εφαρμογή</string>
+    <string name="text_run">Εκτέλεση</string>
+    <string name="text_service">Υπηρεσία</string>
+    <string name="text_stop">Διακοπή</string>
+    <string name="text_time_update">Ενημέρωση ώρας καί λεπτών καιρού</string>
+    <string name="text_to_path">Εισάγετε τη διαδρομή προς igo avic</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_toast_no">Η διαδρομή δέν βρέθηκε</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_toast_no_internet">Δέν υπάρχει internet</string>
+    <string name="text_toast_ok">Η Διαδρομή βρέθηκε</string>
+    <string name="text_type">Τύπος:</string>
+    <string name="text_unit">Μονάδες</string>
+    <string name="text_wind">Άνεμος</string>
+    <string name="text_wind_units">m.s.</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="title_activity_about">Πληροφορίες</string>
+</resources>

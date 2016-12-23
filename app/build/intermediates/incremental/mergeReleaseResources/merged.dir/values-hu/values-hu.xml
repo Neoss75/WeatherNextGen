@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Felfelé mozgatás"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Összes megtekintése"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Válasszon ki egy alkalmazást"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KI"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"BE"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Megosztás a következővel: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="action_about">Infó</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="app_name">NextGen Időjárás</string>
+    <string name="input_ok">Ok</string>
+    <string name="label_service">Időjárás Szolgáltatás</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Keresés"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_about">
+        Telepítési segédlet.  \n\n
+     1.Put folder igo avic: you need to enter the path to the folder containing the folder save, after all to the service will record data. When you first log into the settings, the program will try to determine way. Click OK, if the path is correct, the program will inform about it, otherwise you need Fix on the right path, and click OK.  \n\n
+     2.Yazyki: downloadable forecast will be the chosen language.  \n\n
+     3.Edinitsy measure: Download the forecast will be presented to the selected measurement units.  \n\n
+     4.Kpopka close the program if the button is not enabled, when you start the service, the program will not be closed itself, it can be closed manually. Thus, after the release of the genes will have to log back in service and stop it. When this option is enabled, when you start the service, the program will close and the start gene set, this MUST be selected in the following list the name of the installed package genes. After the release of the genes, the service for 10 seconds should close itself. If the name specified genes is not chosen correctly, the service will close automatically after 10 seconds after launch.  \n\n
+     5.Spisok packages: the possible names of packages installed genes. \n\n
+     6.Sound: will play a sound when an updated forecast service.  \n\n
+     7.Period update: the number of minutes after a forecast will be updated.  \n\n
+    </string>
+    <string name="text_button_start">Szolgáltatás indítása</string>
+    <string name="text_button_stop">Szolgáltatás leállítása</string>
+    <string name="text_close_app">Zárja be a programot, a szolgáltatás elindítása után</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_forum_topic">Forum topic 4pda</string>
+    <string name="text_humidity">Páratartalom:</string>
+    <string name="text_lang">Nyelv:</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_play_sound">Hangjelzés az időjárás frissítés után</string>
+    <string name="text_pressure">Nyomás:</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_restart">Indítsa újra az alkalmazáshoz</string>
+    <string name="text_run">Fut</string>
+    <string name="text_service">Szolgáltatás:</string>
+    <string name="text_stop">Áll</string>
+    <string name="text_time_update">Időjárás frissítési időköz: (perc)</string>
+    <string name="text_to_path">Írja be az iGO Avic elérési útvonalát:</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_toast_no">Útvonal nem található</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_toast_no_internet">Nincs internet</string>
+    <string name="text_toast_ok">Megvan</string>
+    <string name="text_type">Típus:</string>
+    <string name="text_unit">Mértékegységek:</string>
+    <string name="text_wind">Szél:</string>
+    <string name="text_wind_units">m.s.</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="title_activity_about">Infó</string>
+</resources>

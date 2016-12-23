@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather NextGen</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_button_stop">Stop Service</string>
+    <string name="text_button_start">Start Service</string>
+    <string name="text_pressure">Pressure</string>
+    <string name="text_humidity">Humidity</string>
+    <string name="text_wind">Wind</string>
+    <string name="text_to_path">Path to IGO</string>
+    <string name="input_ok">Path</string>
+    <string name="text_toast_ok">Path found</string>
+    <string name="text_toast_no">Path not found</string>
+    <string name="text_toast_no_internet">Not internet</string>
+    <string name="text_service">Service</string>
+    <string name="text_run">Run</string>
+    <string name="text_stop">Stop</string>
+    <string name="text_lang">Language</string>
+    <string name="text_unit">Units</string>
+    <string name="action_about">About</string>
+    <string name="text_close_app">Close the program after start service</string>
+    <string name="label_service">Weather Service</string>
+    <string name="text_play_sound">Play sound after update weather</string>
+    <string name="text_time_update">Time update weather, minutes</string>
+    <string name="title_activity_about">About</string>
+    <string name="text_about">Setup Help. \n\n
+    1.Put folder igo avic: you need to enter the path to the folder containing the folder save, after all
+        to the service will record data. When you first log into the settings, the program will try to determine
+        way. Click OK, if the path is correct, the program will inform about it, otherwise you need
+        Fix on the right path, and click OK. \n\n
+    2.Lang: downloadable forecast will be the chosen language. \n\n
+    3.Units: Download the forecast will be presented to the selected measurement units. \n\n
+        4.Button close the program: If the button is not enabled, when you start the service, the program will not be closed itself,
+        it can be closed manually. Thus, after the release of the genes will have to log back in service and stop it.
+        When this option is enabled, when you start the service, the program will close and the start gene set,
+        this MUST be selected in the following list the name of the installed package genes.
+        After the release of the genes, the service for 10 seconds should close itself.
+        If the name specified genes is not chosen correctly, the service will close automatically after 10 seconds after launch. \n\n
+        5.List packages: the possible names of packages installed genes. \n\n
+        6.Sound: will play a sound when an updated forecast service. \n\n
+        7.Period update: the number of minutes after a forecast will be updated. \n\n</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="text_type">Type:</string>
+    <string name="text_restart">Restart to apply</string>
+    <string name="text_forum_topic">Forum topic 4pda</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_wind_units">m.s.</string>
+
+</resources>

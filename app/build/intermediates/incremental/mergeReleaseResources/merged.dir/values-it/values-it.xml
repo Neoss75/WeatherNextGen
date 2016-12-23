@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="action_about">Dati</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="app_name">Meteo NextGen</string>
+    <string name="input_ok">Ok</string>
+    <string name="label_service">Meteo servizio</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_about">text</string>
+    <string name="text_button_start">Avvia servizio</string>
+    <string name="text_button_stop">Arresta servizio</string>
+    <string name="text_close_app">Chiusura automatica dopo l\'avvio</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_forum_topic">Forum topic 4pda</string>
+    <string name="text_humidity">Umidità</string>
+    <string name="text_lang">Lingua</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_play_sound">Riproduci suono dopo l\'aggiornamento meteo</string>
+    <string name="text_pressure">Pressione</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_restart">Restart to apply</string>
+    <string name="text_run">Avvio</string>
+    <string name="text_service">Servizio</string>
+    <string name="text_stop">Arresto</string>
+    <string name="text_time_update">Time update weather, minutes</string>
+    <string name="text_to_path">Inserire il percorso per Igo Avic</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_toast_no">Percorso non trovato</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_toast_no_internet">Non internet</string>
+    <string name="text_toast_ok">Percorso trovato</string>
+    <string name="text_type">Type:</string>
+    <string name="text_unit">Unità</string>
+    <string name="text_wind">Vento</string>
+    <string name="text_wind_units">m.s.</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="title_activity_about">About</string>
+</resources>

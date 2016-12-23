@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array translatable="false" name="lang">
+        <item>English</item>
+        <item>Russian</item>
+        <item>Italian</item>
+        <item>Spanish</item>
+        <item>Ukrainian</item>
+        <item>German</item>
+        <item>Portuguese</item>
+        <item>Romanian</item>
+        <item>Polish</item>
+        <item>Finnish</item>
+        <item>Dutch</item>
+        <item>French</item>
+        <item>Bulgarian</item>
+        <item>Swedish</item>
+        <item>Turkish</item>
+        <item>Croatian</item>
+        <item>Catalan</item>
+    </string-array>
+
+    <string-array translatable="false" name="units">
+        <item>Standart</item>
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <string-array translatable="false" name="unitsWU">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <string-array translatable="false" name="packageName">
+        <item>jp.pioneer.mbg.avicsync</item>
+        <item>com.nng.igo.primong</item>
+        <item>com.nng.igo.primogena</item>
+        <item>com.nng.igo.avicsync</item>
+		<item>com.basarsoft.igonextgen.javaclient</item>
+        <item>com.nng.igoprimoisr.javaclient</item>
+        <item>com.navngo.igo.javaclient</item>
+		<item>com.nng.igo.pioneer</item>
+        <item>com.nng.igoprimoisrael.javaclient</item>
+        <item>com.nng.igo.navigation</item>
+        <item>com.nng.igo.primong.hun10th</item>
+		<item>com.nng.igo.primong.igoworld</item>
+    </string-array>
+
+    <string-array translatable="false" name="time">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array translatable="false" name="langW">
+        <item>Belarusian</item>
+        <item>Bulgarian</item>
+        <item>British English</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hebrew</item>
+        <item>Hungarian</item>
+        <item>Italian</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Polish</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+    </string-array>
+</resources>

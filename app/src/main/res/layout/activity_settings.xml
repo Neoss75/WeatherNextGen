@@ -1,0 +1,267 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    tools:context="com.neos.weatherservice.Activity_Settings"
+    android:background="#465a64"
+    tools:ignore="Overdraw">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="100dp"
+        android:background="#455a64"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_to_path"
+            android:id="@+id/textViewClouds"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPath"
+            android:layout_below="@+id/textViewClouds"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+        <Button
+            android:layout_width="@dimen/button_ok"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:text="@string/input_ok"
+            android:id="@+id/buttonpick"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="onClickPath"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_lang"
+            android:id="@+id/textLang"
+            android:layout_below="@+id/radioButtonWU"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="3dp"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinner_pack"
+            android:id="@+id/spinnerLang"
+            android:layout_below="@+id/textLang"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:entries="@array/lang"
+            android:background="@android:color/darker_gray"
+            android:layout_marginRight="150dp"
+            android:alpha="1"
+            android:popupBackground="?android:attr/spinnerItemStyle"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_unit"
+            android:id="@+id/textUnits"
+            android:layout_below="@+id/spinnerLang"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="3dp"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinner_pack"
+            android:id="@+id/spinnerUnits"
+            android:layout_below="@+id/textUnits"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/darker_gray"
+            android:layout_marginRight="150dp"
+            android:alpha="16"
+            android:spinnerMode="dialog"
+            android:popupBackground="?android:attr/spinnerItemStyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_close_app"
+            android:id="@+id/textCloseApp"
+            android:layout_below="@+id/spinnerUnits"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="7dp"
+            android:textColor="#ffffff"
+            android:gravity="center_vertical"
+            android:layout_marginRight="60dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinner_pack"
+            android:id="@+id/spinnerPack"
+            android:layout_below="@+id/closeApp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginRight="150dp"
+            android:alpha="32"
+            android:spinnerMode="dialog"
+            android:popupBackground="?android:attr/spinnerItemStyle" />
+
+        <ToggleButton
+            android:layout_width="68dp"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:id="@+id/closeApp"
+            android:layout_below="@+id/spinnerUnits"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="onClickCloseApp"
+            style="?android:attr/buttonStyle"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_play_sound"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/spinnerPack"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#ffffff" />
+
+        <ToggleButton
+            android:layout_width="68dp"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:id="@+id/playSound"
+            android:layout_below="@+id/spinnerPack"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:onClick="onClickSoundPlay"
+            style="?android:attr/buttonStyle"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_time_update"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/playSound"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="7dp"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinner_pack"
+            android:id="@+id/spinnerTimeUpd"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/darker_gray"
+            android:layout_marginRight="200dp"
+            android:alpha="16"
+            android:spinnerMode="dialog"
+            android:popupBackground="?android:attr/spinnerItemStyle" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_opm"
+            android:id="@+id/radioButtonOPM"
+            android:layout_below="@+id/textViewPath"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickServOPM"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_wu"
+            android:id="@+id/radioButtonWU"
+            android:layout_below="@+id/radioButtonOPM"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="3dp"
+            android:onClick="onClickServWU"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/text_common_profiles"
+            android:id="@+id/textViewProfiles"
+            android:layout_below="@+id/spinnerTimeUpd"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="7dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentTop="false"
+            android:paddingTop="15dp" />
+
+        <ToggleButton
+            android:layout_width="68dp"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:id="@+id/profileButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_alignTop="@+id/textViewProfiles"
+            android:onClick="onClickCommonProfile"
+            style="?android:attr/buttonStyle"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:text="@string/text_close_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewProfiles"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/radioButton_close_screen"
+            android:textSize="14sp"
+            android:textColor="#ffffffff"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickCloseScreen" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_close_igo"
+            android:id="@+id/radioButton_close_igo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/radioButton_close_screen"
+            android:layout_marginTop="3dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:onClick="onClickCloseIgo" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

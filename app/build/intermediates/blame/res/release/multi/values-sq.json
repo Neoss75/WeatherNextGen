@@ -1,0 +1,691 @@
+[
+    {
+        "outputFile": "D:\\Pictures\\111\\WeatherApp1\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sq\\values-sq.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 961,
+                        "endColumn": 44,
+                        "endOffset": 1001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 52,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 52,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 49,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 49,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 39,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 505,
+                        "endColumn": 39,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 56,
+                    "endOffset": 295
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1093,
+                        "endColumn": 56,
+                        "endOffset": 1145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 300,
+                    "endColumn": 1475,
+                    "endOffset": 1771
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1377,
+                        "endColumn": 1475,
+                        "endOffset": 2848
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1776,
+                    "endColumn": 61,
+                    "endOffset": 1833
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endColumn": 61,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1838,
+                    "endColumn": 60,
+                    "endOffset": 1894
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 60,
+                        "endOffset": 220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1899,
+                    "endColumn": 84,
+                    "endOffset": 1979
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1007,
+                        "endColumn": 84,
+                        "endOffset": 1087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1984,
+                    "endColumn": 69,
+                    "endOffset": 2049
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 3337,
+                        "endColumn": 69,
+                        "endOffset": 3402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 2054,
+                    "endColumn": 70,
+                    "endOffset": 2120
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3265,
+                        "endColumn": 70,
+                        "endOffset": 3331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2125,
+                    "endColumn": 64,
+                    "endOffset": 2185
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 3127,
+                        "endColumn": 64,
+                        "endOffset": 3187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2190,
+                    "endColumn": 61,
+                    "endOffset": 2247
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 3064,
+                        "endColumn": 61,
+                        "endOffset": 3121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2252,
+                    "endColumn": 51,
+                    "endOffset": 2299
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 341,
+                        "endColumn": 51,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2304,
+                    "endColumn": 43,
+                    "endOffset": 2343
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 871,
+                        "endColumn": 43,
+                        "endOffset": 910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2348,
+                    "endColumn": 55,
+                    "endOffset": 2399
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2854,
+                        "endColumn": 55,
+                        "endOffset": 2905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2404,
+                    "endColumn": 95,
+                    "endOffset": 2495
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1151,
+                        "endColumn": 95,
+                        "endOffset": 1242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2500,
+                    "endColumn": 50,
+                    "endOffset": 2546
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 289,
+                        "endColumn": 50,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2551,
+                    "endColumn": 52,
+                    "endOffset": 2599
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 3476,
+                        "endColumn": 52,
+                        "endOffset": 3524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2604,
+                    "endColumn": 48,
+                    "endOffset": 2648
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 3014,
+                        "endColumn": 48,
+                        "endOffset": 3058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2653,
+                    "endColumn": 43,
+                    "endOffset": 2692
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 781,
+                        "endColumn": 43,
+                        "endOffset": 820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2697,
+                    "endColumn": 49,
+                    "endOffset": 2742
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 730,
+                        "endColumn": 49,
+                        "endOffset": 775
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2747,
+                    "endColumn": 43,
+                    "endOffset": 2786
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 826,
+                        "endColumn": 43,
+                        "endOffset": 865
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2791,
+                    "endColumn": 73,
+                    "endOffset": 2860
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1248,
+                        "endColumn": 73,
+                        "endOffset": 1317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2865,
+                    "endColumn": 66,
+                    "endOffset": 2927
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 437,
+                        "endColumn": 66,
+                        "endOffset": 499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2932,
+                    "endColumn": 66,
+                    "endOffset": 2994
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 3408,
+                        "endColumn": 66,
+                        "endOffset": 3470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2999,
+                    "endColumn": 58,
+                    "endOffset": 3053
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 602,
+                        "endColumn": 58,
+                        "endOffset": 656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3058,
+                    "endColumn": 70,
+                    "endOffset": 3124
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 3193,
+                        "endColumn": 70,
+                        "endOffset": 3259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3129,
+                    "endColumn": 66,
+                    "endOffset": 3191
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 662,
+                        "endColumn": 66,
+                        "endOffset": 724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3196,
+                    "endColumn": 54,
+                    "endOffset": 3246
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 546,
+                        "endColumn": 54,
+                        "endOffset": 596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3251,
+                    "endColumn": 42,
+                    "endOffset": 3289
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2970,
+                        "endColumn": 42,
+                        "endOffset": 3008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3294,
+                    "endColumn": 43,
+                    "endOffset": 3333
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 916,
+                        "endColumn": 43,
+                        "endOffset": 955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3338,
+                    "endColumn": 41,
+                    "endOffset": 3375
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 394,
+                        "endColumn": 41,
+                        "endOffset": 431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3380,
+                    "endColumn": 48,
+                    "endOffset": 3424
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 3530,
+                        "endColumn": 48,
+                        "endOffset": 3574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3429,
+                    "endColumn": 57,
+                    "endOffset": 3482
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2911,
+                        "endColumn": 57,
+                        "endOffset": 2964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3487,
+                    "endColumn": 52,
+                    "endOffset": 3535
+                },
+                "from": {
+                    "file": "D:\\Pictures\\111\\WeatherApp1\\app\\src\\main\\res\\values-sq\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1323,
+                        "endColumn": 52,
+                        "endOffset": 1371
+                    }
+                }
+            }
+        ]
+    }
+]

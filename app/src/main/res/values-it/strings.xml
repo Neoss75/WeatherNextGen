@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">Meteo NextGen</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="text_button_stop">Arresta servizio</string>
+    <string name="text_button_start">Avvia servizio</string>
+    <string name="text_pressure">Pressione</string>
+    <string name="text_humidity">Umidità</string>
+    <string name="text_wind">Vento</string>
+    <string name="text_to_path">Inserire il percorso per Igo Avic</string>
+    <string name="input_ok">Ok</string>
+    <string name="text_toast_ok">Percorso trovato</string>
+    <string name="text_toast_no">Percorso non trovato</string>
+    <string name="text_toast_no_internet">Non internet</string>
+    <string name="text_service">Servizio</string>
+    <string name="text_run">Avvio</string>
+    <string name="text_stop">Arresto</string>
+    <string name="text_lang">Lingua</string>
+    <string name="text_unit">Unità</string>
+    <string name="action_about">Dati</string>
+    <string name="text_close_app">Chiusura automatica dopo l\'avvio</string>
+    <string name="label_service">Meteo servizio</string>
+    <string name="text_play_sound">Riproduci suono dopo l\'aggiornamento meteo</string>
+	<string name="text_time_update">Time update weather, minutes</string>
+   <string name="title_activity_about">About</string>
+   <string name="text_about">text</string>
+   <string name="text_opm">openweathermap.org</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="text_type">Type:</string>
+    <string name="text_restart">Restart to apply</string>
+    <string name="text_forum_topic">Forum topic 4pda</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_wind_units">m.s.</string>
+</resources>

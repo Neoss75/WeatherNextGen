@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Koha NextGen</string>
+    <string name="action_settings">Cilësime</string>
+    <string name="text_button_stop">Ndalo shërbimin</string>
+    <string name="text_button_start">Fillo shërbimin</string>
+    <string name="text_pressure">Presioni</string>
+    <string name="text_humidity">Lagështia</string>
+    <string name="text_wind">Era</string>
+    <string name="text_to_path">Vendos rugën për igo avic</string>
+    <string name="input_ok">Ok</string>
+    <string name="text_toast_ok">Rruga u gjet</string>
+    <string name="text_toast_no">Rruga nuk u gjet</string>
+    <string name="text_toast_no_internet">Nuk ka internet</string>
+    <string name="text_service">Shërbimi</string>
+    <string name="text_run">Vazhdo</string>
+    <string name="text_stop">Ndalo</string>
+    <string name="text_lang">Gjuha</string>
+    <string name="text_unit">Pjesë</string>
+    <string name="action_about">Mbi</string>
+    <string name="text_close_app">Mbyll programin pas fillimit të shërbimit</string>
+    <string name="label_service">Shërbimi kohor</string>
+    <string name="text_play_sound">Dëgjo tingullin pas përditësimit të Shërbimit kohor</string>
+    <string name="text_time_update">Time update weather, minutes</string>
+    <string name="title_activity_about">Mbi</string>
+    <string name="text_about">Setup Help. \n\n     1.Vendos dosjen igo avic: Ju mund të caktoni rrugën tek dosja  save, në fund të shërbimit do të regjistrohen të dhënat. vetë.  Nëse emri nuk do shkruhet me korrektësi, Shërbimi do të mbyllet  automatikisht 10 sekonda pas ndezjes nëse emri nuk është i saktë. \n\n         5.Lista e pakove:emrat e mundshëm të paketave të instaluara gjenetikisht. \n\n 6.Tingulli: tingulli dëgjohet atëherë kur shërbimi rifreskohet . \n\n         7.Periudha e rifreskimit : numri i minutave pas një parashikimi do të rifreskohet. \n\n         Kur të hyni tek parametrat, programi do të përpiqet të përcaktojë rrugën. Kliko OK, nëse rruga është e saktë, programi do të informojë për këtë, përndryshe ju duhet të vendosni rrugën e drejtë, dhe klikoni OK. \n\n 2.Gjuha: Parashikimet shkarkohen kur gjuha të jetë e zgjedhur. \n\n 3.Pjesët: Shkarko parashikimin do të paraqitet në njësitë e zgjedhura të matjes. \n\n 4.Button mbyllni programin: Nëse butoni nuk është aktivizuar, kur ju filloni të shërbimit, programi nuk do të jetë e mbyllur në vetvete, ajo mund të mbyllet me dorë. Kështu, pas lëshimit të gjeneve do të duhet të hyni përsëri në shërbim për ta  ndaluar atë. Kur ky opsion është i aktivizuar, duhet të fillojë  shërbimi, programi do të mbyllet dhe të vendoset fillimi gjenetik,ju  duhet të zgjidhni në listën e mëposhtme emrin e gjeneve të instaluara në paketë. Pas lirimit të gjeneve, shërbimi për 10 sekonda do të mbyllet</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="text_type">Tip:</string>
+    <string name="text_restart">Rifillo</string>
+    <string name="text_forum_topic">Forum topic 4pda</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_wind_units">m.s.</string>
+
+</resources>

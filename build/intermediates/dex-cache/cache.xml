@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_91199b686b0a884d234b46b07281ebb662dcf289.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.1_98b780676e2b04ead844e322a1d4f2233204192d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.2.1_2d5d02899f568f46b98602ff3f191d732d0f7d5e.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_a6803bb76c89eb31069d818270e30d8a14bbeaa3.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.1_e8bfde863a1fe88d9231fe18c4f23dda2fe87691.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.1_bb4551f721089ff7212ec33c7e70a24812b2d951.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-24.2.1_69885188e152f5b5c3c178da86c96097495dc22c.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-24.2.1_940be456a676cececb88712aa26cfc522736cf9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Neoss75\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha4\constraint-layout-solver-1.0.0-alpha4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a882fef6a6b9e3efbb0b6b001895a5fc7c35b391">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\constraint-layout-solver-1.0.0-alpha4_8891181e44a76161e6f5e85bb6e5e3c1557096b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_bfa0626c8cf20369a1bfd4c4dd5b77f9ebb12fd3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Neoss75\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\support-annotations-24.2.1_4ea8937625ee3b967781574029eea53fd2ee3737.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_e5e37babac1b3deb639d454c53496ec4ebea15cc.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.2.1_f81e76948fd2f673f11d358a65c7d6634cc0b5a8.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.2.1_f81995d906722d4c7cca42ce80ed4e15149979c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Neoss75\.gradle\caches\modules-2\files-2.1\com.splunk.mint\mint\5.0.0\631f08ead30884985af1f7e32efcf2f5af1a898e\mint-5.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="631f08ead30884985af1f7e32efcf2f5af1a898e">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\mint-5.0.0_cc64b952f64bf30a3b13a59f0580de4ca91bfca1.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.1_98b780676e2b04ead844e322a1d4f2233204192d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_32e8f735c049b286c99884464d3c412a33a953fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_a6803bb76c89eb31069d818270e30d8a14bbeaa3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Neoss75\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha4\constraint-layout-solver-1.0.0-alpha4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a882fef6a6b9e3efbb0b6b001895a5fc7c35b391">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\constraint-layout-solver-1.0.0-alpha4_8891181e44a76161e6f5e85bb6e5e3c1557096b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="affe29a90a2a709bfd2b8d6411aa99c05a2be96f">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support.constraint-constraint-layout-1.0.0-alpha4_641e8a5cbbcae93a1d37f6cfabb5ca2bbc6b31c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.1_e3571b6966c33ee8a55b50ac347aa0dfa9a974dc.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-24.2.1_69885188e152f5b5c3c178da86c96097495dc22c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.1_e8bfde863a1fe88d9231fe18c4f23dda2fe87691.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.1_bb4551f721089ff7212ec33c7e70a24812b2d951.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.2.1_f81e76948fd2f673f11d358a65c7d6634cc0b5a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Neoss75\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\support-annotations-24.2.1_4ea8937625ee3b967781574029eea53fd2ee3737.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_bfa0626c8cf20369a1bfd4c4dd5b77f9ebb12fd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.2.1_f81995d906722d4c7cca42ce80ed4e15149979c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-24.2.1_940be456a676cececb88712aa26cfc522736cf9c.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.2.1_2d5d02899f568f46b98602ff3f191d732d0f7d5e.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_32e8f735c049b286c99884464d3c412a33a953fc.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_91199b686b0a884d234b46b07281ebb662dcf289.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.1_e3571b6966c33ee8a55b50ac347aa0dfa9a974dc.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_e5e37babac1b3deb639d454c53496ec4ebea15cc.jar" />
+    </item>
+    <item
+        jar="D:\Pictures\111\WeatherApp1\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="affe29a90a2a709bfd2b8d6411aa99c05a2be96f">
+        <dex dex="D:\Pictures\111\WeatherApp1\app\build\intermediates\pre-dexed\release\com.android.support.constraint-constraint-layout-1.0.0-alpha4_641e8a5cbbcae93a1d37f6cfabb5ca2bbc6b31c6.jar" />
+    </item>
+
+</items>

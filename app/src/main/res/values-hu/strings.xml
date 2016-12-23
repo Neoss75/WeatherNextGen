@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Infó</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="app_name">NextGen Időjárás</string>
+    <string name="input_ok">Ok</string>
+    <string name="label_service">Időjárás Szolgáltatás</string>
+    <string name="text_about">
+        Telepítési segédlet.  \n\n
+     1.Put folder igo avic: you need to enter the path to the folder containing the folder save, after all to the service will record data. When you first log into the settings, the program will try to determine way. Click OK, if the path is correct, the program will inform about it, otherwise you need Fix on the right path, and click OK.  \n\n
+     2.Yazyki: downloadable forecast will be the chosen language.  \n\n
+     3.Edinitsy measure: Download the forecast will be presented to the selected measurement units.  \n\n
+     4.Kpopka close the program if the button is not enabled, when you start the service, the program will not be closed itself, it can be closed manually. Thus, after the release of the genes will have to log back in service and stop it. When this option is enabled, when you start the service, the program will close and the start gene set, this MUST be selected in the following list the name of the installed package genes. After the release of the genes, the service for 10 seconds should close itself. If the name specified genes is not chosen correctly, the service will close automatically after 10 seconds after launch.  \n\n
+     5.Spisok packages: the possible names of packages installed genes. \n\n
+     6.Sound: will play a sound when an updated forecast service.  \n\n
+     7.Period update: the number of minutes after a forecast will be updated.  \n\n
+    </string>
+    <string name="text_button_start">Szolgáltatás indítása</string>
+    <string name="text_button_stop">Szolgáltatás leállítása</string>
+    <string name="text_close_app">Zárja be a programot, a szolgáltatás elindítása után</string>
+    <string name="text_humidity">Páratartalom:</string>
+    <string name="text_lang">Nyelv:</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_play_sound">Hangjelzés az időjárás frissítés után</string>
+    <string name="text_pressure">Nyomás:</string>
+    <string name="text_restart">Indítsa újra az alkalmazáshoz</string>
+    <string name="text_run">Fut</string>
+    <string name="text_service">Szolgáltatás:</string>
+    <string name="text_stop">Áll</string>
+    <string name="text_time_update">Időjárás frissítési időköz: (perc)</string>
+    <string name="text_to_path">Írja be az iGO Avic elérési útvonalát:</string>
+    <string name="text_toast_no">Útvonal nem található</string>
+    <string name="text_toast_no_internet">Nincs internet</string>
+    <string name="text_toast_ok">Megvan</string>
+    <string name="text_type">Típus:</string>
+    <string name="text_unit">Mértékegységek:</string>
+    <string name="text_wind">Szél:</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="title_activity_about">Infó</string>
+    <string name="text_forum_topic">Forum topic 4pda</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_wind_units">m.s.</string>
+</resources>

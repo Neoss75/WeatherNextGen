@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Despre</string>
+    <string name="action_settings">Setări</string>
+    <string name="app_name">Meteo NextGen Avic</string>
+    <string name="input_ok">Ok</string>
+    <string name="label_service">Serviciu meteo</string>
+    <string name="text_about">"Ajutor Setări. 
+	
+1. Calea către directorul NextGen (Avic) : 
+   Trebuie să introduceţi calea către directorul ce conţine directorul 'save', pentru că acolo serviciul va înregistra datele. 
+   La prima rulare a 'Setări', programul va încerca să determine calea. 
+   La apăsarea tastei OK, dacă calea este corectă, programul va confirma, altfel va trebui să introduceţi calea corectă şi apoi să apăsaţi OK.
+
+2. Limbă : 
+   Previziunile meteo descărcate vor fi în limba selectată. 
+
+3. Unităţi : 
+   Previziunile meteo descărcate vor fi prezentate în unităţile de măsură limba selectate. 
+
+4. Buton închidere program : 
+   Dacă butonul NU este activat, la pornirea serviciului, programul NU se va închide automat, ci va fi închis manual. 
+   Astfel, după oprirea NextGen (Avic) va trebui să reporniţi programul şi să opriţi serviciul. 
+   Când această opţiune este activată, la pornirea serviciului, programul se va închide şi va porni NextGen (Avic) selectat, acesta trebuind să fie selectat din lista de pachete NextGen (Avic) instalate. 
+   La 10 secunde de la oprirea NextGen (Avic), serviciul se va opri automat. 
+   Dacă numele specificat pentru NextGen (Avic) nu este ales corect, serviciul se va opri automat la 10 secunde de la pornire. 
+
+5. Listă programe : 
+   Posibile nume pentru pachetele NextGen (Avic) instalate. 
+
+6. Sunet : 
+   Va fi redat un sunet la actualizarea prognozei meteo. 
+
+7. Perioadă actualizare : 
+   Număr minute la care va fi actualizată prognoza meteo. 
+
+8. Jurnal : 
+   La folosirea serviciului, directorul selecta în primul paragraf jurnalul înregistrat. 
+   Va fi şters la fiecare pornire a lui NextGen (Avic). 
+	</string>
+    <string name="text_button_start">Pornire serviciu</string>
+    <string name="text_button_stop">Oprire serviciu</string>
+    <string name="text_close_app">Închidere program după pornire serviciu</string>
+    <string name="text_humidity">Umiditate atmosferică</string>
+    <string name="text_lang">Limbă</string>
+    <string name="text_opm">openweathermap.org</string>
+    <string name="text_play_sound">Sunet după actualizare meteo</string>
+    <string name="text_pressure">Presiune atmosferică</string>
+    <string name="text_restart">Repornire pentru a fi luat în considerare</string>
+    <string name="text_run">Pornit</string>
+    <string name="text_service">Serviciu</string>
+    <string name="text_stop">Oprit</string>
+    <string name="text_time_update">Perioadă actualizare meteo, minute</string>
+    <string name="text_to_path">Introducere cale NextGen (Avic)</string>
+    <string name="text_toast_no">Cale NextGen (Avic) inexistentă</string>
+    <string name="text_toast_no_internet">Lipsă conexiune internet</string>
+    <string name="text_toast_ok">Cale NextGen (Avic) corectă</string>
+    <string name="text_type">Type:</string>
+    <string name="text_unit">Unităţi</string>
+    <string name="text_wind">Vânt</string>
+    <string name="text_wu">weatherandeground.com</string>
+    <string name="title_activity_about">Despre</string>
+    <string name="text_forum_topic">Forum topic 4pda</string>
+    <string name="text_common_profiles">Common profiles</string>
+    <string name="text_toast_no_app">Package name not founded</string>
+    <string name="text_close_screen">Close service off screen</string>
+    <string name="text_close_igo">Close service of close iGO</string>
+    <string name="text_toast_app_found">The program found</string>
+    <string name="text_pressure_units">mmGh</string>
+    <string name="text_wind_units">m.s.</string>
+</resources>
