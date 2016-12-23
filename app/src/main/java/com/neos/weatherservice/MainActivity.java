@@ -319,7 +319,6 @@ public class MainActivity extends Activity {
 	}
 
 
-
 	private void ProviderLocationEnable() {
 		if (lm != null) {
 			if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -352,10 +351,7 @@ public class MainActivity extends Activity {
 							idServWU = "31f019ff6b50250d";
 							APP_ID ="&APPID=e3d037868e766182f3fc1f4507fcceff"; //semenof_se
 						}
-//	                    String APP_ID ="&APPID=e3d037868e766182f3fc1f4507fcceff"; //semenof_se
-//                      String APP_ID ="&APPID=319b7bccd867a372138c588d2481d24e"; //Alex_33
-//	                    String APP_ID ="&APPID=cd5e2fcee16ab4341fa663cc66a296b4"; //Yoburger
-//                      String APP_ID ="&APPID=af167389cb0a2e22cbc36dd37f0e70dc"; //SamDell
+
 						String concatLocation = ("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon);
 						String conLocationWU = ("http://api.wunderground.com/api/" + idServWU + "/conditions/" + LANG_WU + "/q/" + lat + "," + lon + ".json");
 						String latLon = ("lat=" + lat + " " + "lon=" + lon);
@@ -470,7 +466,6 @@ public class MainActivity extends Activity {
 				Log.e(LOG_TAG, e.toString());
 			}
 
-
 			cityText.setText(city);
 			condDescr.setText(descr);
 			temp.setText(Temp);
@@ -544,7 +539,6 @@ public class MainActivity extends Activity {
 		}
 		assert buffer != null;
 		str_data = new String(buffer);
-//		Log.d(LOG_TAG, "New data: " + str_data);
 	}
 
 	private void readAssetFileDataWU() {
@@ -562,7 +556,6 @@ public class MainActivity extends Activity {
 		}
 		assert buffer != null;
 		str_dataWU = new String(buffer);
-//		Log.d(LOG_TAG, "New data: " + str_dataWU);
 	}
 
 	private void changeWUid() {
