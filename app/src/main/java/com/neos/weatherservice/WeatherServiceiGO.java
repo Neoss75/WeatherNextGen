@@ -283,7 +283,6 @@ public class WeatherServiceiGO extends Service {
             return weather;
         }
 
-
         @Override
         protected void onPostExecute(Weather weather) {
             super.onPostExecute(weather);
