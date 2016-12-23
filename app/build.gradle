@@ -6,13 +6,16 @@ android {
         config {
         }
     }
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
     defaultConfig {
+        jackOptions {
+            enabled true
+        }
         applicationId "com.neos.weatherservice"
         minSdkVersion 9
         //noinspection OldTargetApi
-        targetSdkVersion 24
+        targetSdkVersion 25
         versionCode 47
         versionName '1.08'
     }
@@ -25,8 +28,8 @@ android {
     productFlavors {
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
@@ -37,6 +40,6 @@ repositories {
 dependencies {
     compile 'com.splunk.mint:mint:5.0.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
-    compile 'com.android.support:support-v4:24.2.1'
-    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:support-v4:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.1.0'
 }
