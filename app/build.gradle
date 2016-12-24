@@ -15,9 +15,9 @@ android {
         applicationId "com.neos.weatherservice"
         minSdkVersion 9
         targetSdkVersion 25
-        versionCode 48
-        versionName '1.08'
-        project.ext.set("archivesBaseName", "WeatherService_iGO_" + defaultConfig.versionName)
+        versionCode 49
+        versionName '1.08.1'
+        project.ext.set("archivesBaseName", "WeatherService_" + defaultConfig.versionName)
     }
     buildTypes {
         release {
