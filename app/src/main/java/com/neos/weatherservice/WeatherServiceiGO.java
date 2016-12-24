@@ -288,16 +288,16 @@ public class WeatherServiceiGO extends Service {
             super.onPostExecute(weather);
 
             if (mSettings.getInt("Unit", 1) == 0) {
-                UnitsMetric = "°K";
+                UnitsMetric = "\u00b0K";
             } else if (mSettings.getInt("Unit", 1) == 1){
-                UnitsMetric = "°C";
+                UnitsMetric = "\u00b0C";
             } else if (mSettings.getInt("Unit", 1) == 2){
-                UnitsMetric = "°F";
+                UnitsMetric = "\u00b0F";
             }
             if (mSettings.getInt("UnitWU", 0) == 0) {
-                UnitsMetricWU = "°C";
+                UnitsMetricWU = "\u00b0C";
             } else {
-                UnitsMetricWU = "°F";
+                UnitsMetricWU = "\u00b0F";
             }
             String DescrText = ("" + weather.currentCondition.getDescr());
             String TempText;
@@ -662,17 +662,17 @@ public class WeatherServiceiGO extends Service {
             super.onPostExecute(weather);
 
             if (mSettings.getInt("Unit", 1) == 0) {
-                UnitsMetric = "°K";
+                UnitsMetric = "\u00b0K";
             } else if (mSettings.getInt("Unit", 1) == 1){
-                UnitsMetric = "°C";
+                UnitsMetric = "\u00b0C";
             } else if (mSettings.getInt("Unit", 1) == 2){
-                UnitsMetric = "°F";
+                UnitsMetric = "\u00b0F";
             }
             String unitsMetricWU;
             if (mSettings.getInt("UnitWU", 0) == 0) {
-                unitsMetricWU = "°C";
+                unitsMetricWU = "\u00b0C";
             } else {
-                unitsMetricWU = "°F";
+                unitsMetricWU = "\u00b0F";
             }
             String DescrText = ("" + weather.currentCondition.getDescr());
             String TempText;
