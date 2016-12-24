@@ -17,6 +17,7 @@ android {
         targetSdkVersion 25
         versionCode 48
         versionName '1.08'
+        project.ext.set("archivesBaseName", "WeatherService_iGO_" + defaultConfig.versionName)
     }
     buildTypes {
         release {
