@@ -412,20 +412,20 @@ public class MainActivity extends Activity {
 
 			InputStream is = null;
 			if (mSettings.getInt("Unit", 1) == 0) {
-				UnitsMetric = "°K";
+				UnitsMetric = "\u00b0K";
 				UnitSpeed = " m/s";
 			} else if (mSettings.getInt("Unit", 1) == 1){
-				UnitsMetric = "°C";
+				UnitsMetric = "\u00b0C";
 				UnitSpeed = " " + getString(R.string.text_wind_units);
 			} else if (mSettings.getInt("Unit", 1) == 2){
-				UnitsMetric = "°F";
+				UnitsMetric = "\u00b0F";
 				UnitSpeed = " m/h";
 			}
 			String unitsMetricWU;
 			if (mSettings.getInt("UnitWU", 1) == 0) {
-				unitsMetricWU = "°C";
+				unitsMetricWU = "\u00b0C";
 			} else {
-				unitsMetricWU = "°F";
+				unitsMetricWU = "\u00b0F";
 			}
 
 			double pres = (weather.currentCondition.getPressure() * 0.75006375541921);
@@ -433,7 +433,7 @@ public class MainActivity extends Activity {
 			String city = (weather.location.getCity() + ", " + weather.location.getCountry());
 			String Pre = ("" + presInt + " " + getString(R.string.text_pressure_units));
 			String Speed = ("" + weather.wind.getSpeed() + UnitSpeed);
-			String Deg = (" " + weather.wind.getDeg() + "°");
+			String Deg = (" " + weather.wind.getDeg() + "\u00b0");
 			String ico = ("" + weather.currentCondition.getIcon() + ".png");
 			String icon;
 			String Temp;
