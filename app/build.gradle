@@ -14,7 +14,6 @@ android {
         }
         applicationId "com.neos.weatherservice"
         minSdkVersion 9
-        //noinspection OldTargetApi
         targetSdkVersion 25
         versionCode 48
         versionName '1.08'
