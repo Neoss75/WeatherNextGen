@@ -244,7 +244,7 @@ public class WeatherServiceiGO extends Service {
                             } else {
                                 JSONWeatherTask task = new JSONWeatherTask();
                                 task.execute(paramsWU);
-                                readAssetFileDataWU();
+                                readAssetFileData();
                                 changeWUid();
                             }
                             lm.removeUpdates(locationListener);
@@ -804,7 +804,12 @@ public class WeatherServiceiGO extends Service {
     }
 
     private void readAssetFileData() {
-        String str = "data/data.xml";
+        String str;
+        if (choiceServer) {
+            str = "data/data.xml";
+        } else {
+            str = "data/dataWU.xml";
+        }
         byte[] buffer = null;
         InputStream is;
         try {
@@ -816,25 +821,11 @@ public class WeatherServiceiGO extends Service {
         } catch (IOException e) {
             Log.e(LOG_TAG, e.toString());
         }
-        str_data = new String(buffer);
-        Log.d(LOG_TAG, "New data: " + str_data);
-    }
-
-    private void readAssetFileDataWU() {
-        String str = "data/dataWU.xml";
-        byte[] buffer = null;
-        InputStream is;
-        try {
-            is = getAssets().open(str);
-            int size = is.available();
-            buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-        } catch (IOException e) {
-            Log.e(LOG_TAG, e.toString());
+        if (choiceServer) {
+            str_data = new String(buffer);
+        } else {
+            str_dataWU = new String(buffer);
         }
-        str_dataWU = new String(buffer);
-//        Log.d(LOG_TAG, "New data: " + str_dataWU);
     }
 
     private void changeWUid() {
