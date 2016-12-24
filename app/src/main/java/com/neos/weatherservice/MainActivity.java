@@ -364,7 +364,7 @@ public class MainActivity extends Activity {
 						} else {
 							JSONWeatherTask task = new JSONWeatherTask();
 							task.execute(conLocationWU);
-							readAssetFileDataWU();
+							readAssetFileData();
 							changeWUid();
 						}
 						Log.d(LOG_TAG, params);
@@ -393,7 +393,6 @@ public class MainActivity extends Activity {
 					} else {
 						assert data != null;
 						if (data.contains("Error")) {
-							readAssetFileDataWU();
 							data = str_dataWU;
 						}
 							weather = JSONWeatherParserWU.getWeather(data);
@@ -525,7 +524,12 @@ public class MainActivity extends Activity {
 
 	@SuppressWarnings("ResultOfMethodCallIgnored")
 	private void readAssetFileData() {
-		String str = "data/data.xml";
+		String str;
+		if (choiceServer) {
+			str = "data/data.xml";
+		} else {
+			str = "data/dataWU.xml";
+		}
 		byte[] buffer = null;
 		InputStream is;
 		try {
@@ -538,25 +542,13 @@ public class MainActivity extends Activity {
 			Log.e(LOG_TAG, e.toString());
 		}
 		assert buffer != null;
-		str_data = new String(buffer);
+		if (choiceServer) {
+			str_data = new String(buffer);
+		} else {
+			str_dataWU = new String(buffer);
+		}
 	}
 
-	private void readAssetFileDataWU() {
-		String str = "data/dataWU.xml";
-		byte[] buffer = null;
-		InputStream is;
-		try {
-			is = getAssets().open(str);
-			int size = is.available();
-			buffer = new byte[size];
-			is.read(buffer);
-			is.close();
-		} catch (IOException e) {
-			Log.e(LOG_TAG, e.toString());
-		}
-		assert buffer != null;
-		str_dataWU = new String(buffer);
-	}
 
 	private void changeWUid() {
 		if (changeId) {
