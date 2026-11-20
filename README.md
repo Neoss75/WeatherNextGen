@@ -75,3 +75,7 @@ APK появится в `app/build/outputs/apk/debug/`. Для release-сбор�
 ## Источник данных
 
 Данные о погоде: [Open-Meteo.com](https://open-meteo.com), лицензия [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Лицензия
+
+Код распространяется по лицензии [MIT](LICENSE). Данные о погоде, которые приложение получает от Open-Meteo, остаются под лицензией CC BY 4.0.
