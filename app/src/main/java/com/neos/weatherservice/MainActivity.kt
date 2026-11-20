@@ -2,6 +2,7 @@ package com.neos.weatherservice
 
 import android.Manifest
 import android.content.Intent
+import android.graphics.drawable.BitmapDrawable
 import android.os.Build
 import android.os.Bundle
 import android.text.format.DateFormat
@@ -9,7 +10,6 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var statusText: TextView
     private lateinit var warningText: TextView
     private lateinit var weatherBlock: View
-    private lateinit var icon: ImageView
     private lateinit var temp: TextView
+    private val iconSizePx by lazy { (80 * resources.displayMetrics.density).toInt() }
     private lateinit var description: TextView
     private lateinit var details: TextView
 
@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
         statusText = findViewById(R.id.status)
         warningText = findViewById(R.id.warning)
         weatherBlock = findViewById(R.id.weather_block)
-        icon = findViewById(R.id.icon)
         temp = findViewById(R.id.temp)
         description = findViewById(R.id.description)
         details = findViewById(R.id.details)
@@ -106,7 +105,9 @@ class MainActivity : AppCompatActivity() {
             return
         }
         weatherBlock.visibility = View.VISIBLE
-        icon.setImageBitmap(WeatherText.icon(this, w))
+        val iconDrawable = WeatherText.icon(this, w)?.let { BitmapDrawable(resources, it) }
+        iconDrawable?.setBounds(0, 0, iconSizePx, iconSizePx)
+        temp.setCompoundDrawablesRelative(iconDrawable, null, null, null)
         temp.text = IgoFormat.temperature(w)
         description.text = listOf(WeatherText.description(this, w.code.condition), s.place)
             .filter { it.isNotEmpty() }.joinToString("\n")

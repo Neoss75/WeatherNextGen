@@ -9,7 +9,7 @@ import android.widget.Toast
  * Second launcher icon ("Weather service"): starts the service and the navigator in one tap.
  * Falls back to the main screen when something still needs to be set up.
  */
-class LaunchActivity : Activity() {
+class ServiceShortcutActivity : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
