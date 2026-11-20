@@ -1,66 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><!-- suppress ALL -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.neos.weatherservice">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
-    <!-- suppress DeprecatedClassUsageInspection -->
-    <uses-permission android:name="android.permission.GET_TASKS" />
-	<uses-feature android:name="android.hardware.location" android:required="false"/>
-    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
-    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <uses-feature android:name="android.hardware.location.network" android:required="false" />
+
+    <!-- Android 11+ only lets us see (and launch) packages listed here. -->
+    <queries>
+        <package android:name="jp.pioneer.mbg.avicsync" />
+        <package android:name="com.nng.igo.primong" />
+        <package android:name="com.nng.igo.primogena" />
+        <package android:name="com.nng.igo.avicsync" />
+        <package android:name="com.basarsoft.igonextgen.javaclient" />
+        <package android:name="com.nng.igoprimoisr.javaclient" />
+        <package android:name="com.navngo.igo.javaclient" />
+        <package android:name="com.nng.igo.pioneer" />
+        <package android:name="com.nng.igoprimoisrael.javaclient" />
+        <package android:name="com.nng.igo.navigation" />
+        <package android:name="com.nng.igo.primong.hun10th" />
+        <package android:name="com.nng.igo.primong.igoworld" />
+    </queries>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        android:theme="@style/AppTheme">
+
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LaunchActivity"
+            android:exported="true"
+            android:icon="@drawable/lancer_service"
+            android:label="@string/label_service"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/action_settings" />
 
         <service
-            android:name=".WeatherServiceiGO"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="true">
-            <intent-filter>
-                <action android:name="com.neos.weatherservice.WeatherServiceiGO" />
-            </intent-filter>
-        </service>
-
-        <activity
-            android:name=".Activity_Settings"
-            android:label="@string/action_settings" />
-        <activity
-            android:name=".ActivityRunService"
-            android:icon="@drawable/lancer_service"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:label="@string/label_service">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".AboutActivity"
-            android:label="@string/title_activity_about" />
+            android:name=".WeatherService"
+            android:exported="false"
+            android:foregroundServiceType="location" />
     </application>
-
 </manifest>

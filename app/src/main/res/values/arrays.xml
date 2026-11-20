@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigator_packages" translatable="false">
+        <item>jp.pioneer.mbg.avicsync</item>
+        <item>com.nng.igo.primong</item>
+        <item>com.nng.igo.primogena</item>
+        <item>com.nng.igo.avicsync</item>
+        <item>com.basarsoft.igonextgen.javaclient</item>
+        <item>com.nng.igoprimoisr.javaclient</item>
+        <item>com.navngo.igo.javaclient</item>
+        <item>com.nng.igo.pioneer</item>
+        <item>com.nng.igoprimoisrael.javaclient</item>
+        <item>com.nng.igo.navigation</item>
+        <item>com.nng.igo.primong.hun10th</item>
+        <item>com.nng.igo.primong.igoworld</item>
+    </string-array>
+
+    <string-array name="units_values" translatable="false">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <string-array name="interval_values" translatable="false">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+</resources>

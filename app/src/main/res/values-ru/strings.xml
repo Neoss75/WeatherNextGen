@@ -1,55 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Weather NextGen</string>
-    <string name="action_settings">Настройки</string>
-    <string name="text_button_start">Запустить сервис</string>
-    <string name="text_button_stop">Остановить сервис</string>
-    <string name="text_humidity">Влажность</string>
-    <string name="text_pressure">Давление</string>
-    <string name="text_wind">Ветер</string>
-    <string name="text_to_path">Путь к IGO</string>
-    <string name="input_ok">Путь</string>
-    <string name="text_toast_ok">Путь найден</string>
-    <string name="text_toast_no">Путь не найден</string>
-    <string name="text_toast_no_internet">Нет интернета</string>
-    <string name="text_service">Сервис</string>
-    <string name="text_run">Запущен</string>
-    <string name="text_stop">Остановлен</string>
-    <string name="text_lang">Язык</string>
-    <string name="text_unit">Единицы</string>
-    <string name="action_about">Справка</string>
-    <string name="text_close_app">Закрывать программу после запуска сервиса</string>
     <string name="label_service">Weather сервис</string>
-    <string name="text_play_sound">Проигрывать звук после обновления погоды</string>
-    <string name="text_time_update">Время обновления прогноза, минут</string>
-    <string name="title_activity_about">Справка</string>
-    <string name="text_about">Справка по настройкам. \n\n
-    1.Путь к папке igo avic: нужно ввести путь к папке, в которой находится папка save, ведь именно
-    туда сервис будет записывать данные. При первом входе в настройки, программа сама попытается определить
-        путь. Нажмите Ок, если путь окажется правильным, программа сообщит об этом, в противном случае нужно
-        исправить на правильный путь и нажать Ок. \n\n
-    2.Языки: скачиваемый прогноз будет на выбраном языке. \n\n
-    3.Единицы измерения: скачанный прогноз будет представлен с выбранными единицами измерения. \n\n
-        4.Кпопка закрывать программу: если кнопка не включена, то при старте сервиса, программа не закроется
-        сама, ее можно будет закрыть вручную. При этом, после выхода из гены, нужно будет снова войти в сервис
-        и остановить его. При включенной опции, при старте сервиса, программа сама закроется и запустится
-        установленный гена, для этого ОБЯЗАТЕЛЬНО выбрать в следующем списке имя установленного пакета гены.
-        После выхода из гены, сервис в течении 10 секунд должен закрыться сам. Если имя установленного гены
-        выбрано не правильно, то сервис автоматически закроется через 10 секунд после запуска. \n\n
-        5.Список пакетов: возможные имена пакетов установленного гены. \n\n
-        6.Звук: будет проигрываться звук, в момент обновления прогноза сервисом. \n\n
-        7.Период обновления: время в минутах, через какое будет обновляться прогноз. \n\n
-    </string>
-    <string name="text_opm">openweathermap.org</string>
-    <string name="text_wu">weatherandeground.com</string>
-    <string name="text_type">Тип:</string>
-    <string name="text_restart">Перезапустите для применения</string>
-    <string name="text_forum_topic">Тема на 4pda</string>
-    <string name="text_common_profiles">Запись во все профили</string>
-    <string name="text_toast_no_app">Имя пакета не найдено!</string>
-    <string name="text_close_screen">Закрывать сервис при выключенном экране</string>
-    <string name="text_close_igo">Закрывать сервис после закрытия iGO</string>
-    <string name="text_toast_app_found">Программа найдена</string>
-    <string name="text_pressure_units">мм/рт.ст.</string>
-    <string name="text_wind_units">м/с</string>
+
+    <string name="action_refresh">Обновить</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_about">Справка</string>
+
+    <string name="button_start">Запустить сервис</string>
+    <string name="button_stop">Остановить сервис</string>
+    <string name="status_running">Сервис запущен</string>
+    <string name="status_stopped">Сервис остановлен</string>
+    <string name="status_no_location">Ожидание координат…</string>
+    <string name="status_no_internet">Нет интернета, повторю позже</string>
+    <string name="status_no_folder">Нет доступа к папке iGO, погода не записана</string>
+    <string name="warning_no_folder">Папка iGO не выбрана. Нажмите, чтобы выбрать её в настройках.</string>
+
+    <string name="humidity">Влажность: %1$d%%</string>
+    <string name="pressure">Давление: %1$d мм рт. ст. (%2$d гПа)</string>
+    <string name="wind_ms">Ветер: %1$.1f м/с, %2$d°</string>
+    <string name="wind_mph">Ветер: %1$.1f миль/ч, %2$d°</string>
+    <string name="updated_at">Обновлено в %1$s</string>
+    <string name="attribution">Данные о погоде: Open-Meteo.com (CC BY 4.0)</string>
+
+    <string name="toast_need_location">Для получения погоды нужен доступ к местоположению</string>
+    <string name="toast_choose_folder">Сначала выберите папку iGO</string>
+    <string name="toast_no_app">Пакет навигатора не найден</string>
+    <string name="toast_folder_ok">Папка iGO найдена</string>
+    <string name="toast_folder_bad">Это не папка iGO: в ней должна быть save/profiles</string>
+
+    <string name="notif_channel">Сервис погоды</string>
+    <string name="notif_starting">Получаю погоду…</string>
+
+    <string name="pref_cat_igo">iGO</string>
+    <string name="pref_folder">Папка iGO</string>
+    <string name="pref_folder_not_set">Не выбрана. Выберите папку, в которой лежит \"save\".</string>
+    <string name="pref_all_profiles">Запись во все профили</string>
+    <string name="pref_all_profiles_summary">Профили 01–04, а не только 01</string>
+    <string name="pref_launch">Запускать iGO</string>
+    <string name="pref_launch_summary">При старте сервиса запустить навигатор и закрыть программу</string>
+    <string name="pref_package">Пакет навигатора</string>
+    <string name="pref_cat_weather">Погода</string>
+    <string name="pref_units">Единицы</string>
+    <string name="pref_interval">Период обновления</string>
+    <string name="pref_sound">Звук после обновления погоды</string>
+    <string name="pref_stop_screen_off">Останавливать сервис при выключении экрана</string>
+
+    <string-array name="units_names">
+        <item>Метрические (°C, м/с)</item>
+        <item>Имперские (°F, миль/ч)</item>
+    </string-array>
+    <string-array name="interval_names">
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>1,5 часа</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+    </string-array>
+
+    <string name="about_text">Сервис записывает текущую погоду в профиль iGO (save/profiles/01/userlists/weather.txt), чтобы её показывал совместимый скин.\n\nЕсли скин пишет координаты точки назначения в coordinates_fin.txt, погода в точке назначения записывается в weather_fin.txt.\n\n1. В настройках выберите папку iGO (ту, в которой лежит \"save\").\n2. При желании выберите пакет навигатора, чтобы запускать его вместе с сервисом.\n3. Нажмите \"Запустить сервис\".\n\nДанные о погоде: Open-Meteo.com, CC BY 4.0.</string>
+
+    <string name="cond_clear">Ясно</string>
+    <string name="cond_mainly_clear">Преимущественно ясно</string>
+    <string name="cond_partly_cloudy">Переменная облачность</string>
+    <string name="cond_overcast">Пасмурно</string>
+    <string name="cond_fog">Туман</string>
+    <string name="cond_drizzle">Морось</string>
+    <string name="cond_freezing_drizzle">Ледяная морось</string>
+    <string name="cond_rain">Дождь</string>
+    <string name="cond_freezing_rain">Ледяной дождь</string>
+    <string name="cond_snow">Снег</string>
+    <string name="cond_snow_grains">Снежная крупа</string>
+    <string name="cond_rain_showers">Ливень</string>
+    <string name="cond_snow_showers">Снегопад</string>
+    <string name="cond_thunderstorm">Гроза</string>
+    <string name="cond_thunderstorm_hail">Гроза с градом</string>
+    <string name="cond_unknown">Нет данных</string>
 </resources>
