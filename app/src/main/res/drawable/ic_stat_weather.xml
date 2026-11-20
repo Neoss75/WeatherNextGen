@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Sun behind a cloud -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M9,3h1.5v2.2H9zM3.6,5.4l1.1,-1.1l1.6,1.6l-1.1,1.1zM2,10.2h2.2v1.5H2zM13.2,5.9l1.6,-1.6l1.1,1.1l-1.6,1.6zM9.75,7A3.75,3.75 0,0 0,6.2 12.1A4,4 0,0 1,9.3 9.8A5.5,5.5 0,0 1,13.2 8.6A3.74,3.74 0,0 0,9.75 7zM17.5,11a5,5 0,0 0,-9.2 1.6A3.5,3.5 0,0 0,8.5 19.6h9a4.3,4.3 0,0 0,0 -8.6z" />
+</vector>

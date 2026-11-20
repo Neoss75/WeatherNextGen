@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!--
+        The app supports Android 5.0 (minSdk 21) for older car head units.
+        Newer releases of these libraries require Android 6.0+ (core 1.18+, appcompat 1.8+,
+        lifecycle 2.10+), so they stay on the newest versions that still run on Android 5.0.
+    -->
+    <issue id="GradleDependency">
+        <ignore regexp="androidx\.core:core-ktx|androidx\.appcompat:appcompat|androidx\.lifecycle:lifecycle-runtime-ktx" />
+    </issue>
+</lint>
