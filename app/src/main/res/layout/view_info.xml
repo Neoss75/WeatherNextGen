@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- "Details" glass card: coordinates, selected navigator and where the weather is written. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/info_title"
+        android:textAppearance="@style/TextAppearance.Weather.Label" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_glass"
+        android:divider="@drawable/divider_glass"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:showDividers="middle">
+
+        <include
+            android:id="@+id/info_coords"
+            layout="@layout/item_info_row" />
+
+        <include
+            android:id="@+id/info_navigator"
+            layout="@layout/item_info_row" />
+
+        <include
+            android:id="@+id/info_folder"
+            layout="@layout/item_info_row" />
+    </LinearLayout>
+</LinearLayout>

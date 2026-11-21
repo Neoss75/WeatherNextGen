@@ -11,8 +11,8 @@ android {
         applicationId = "com.neos.weatherservice"
         minSdk = 21
         targetSdk = 35
-        versionCode = 201
-        versionName = "2.0.1"
+        versionCode = 210
+        versionName = "2.1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -60,6 +60,8 @@ android {
 dependencies {
     implementation("androidx.core:core-ktx:1.16.0")
     implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("com.google.android.material:material:1.13.0")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0")
     implementation("androidx.preference:preference-ktx:1.2.1")
     implementation("androidx.documentfile:documentfile:1.1.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.4")

@@ -53,5 +53,11 @@
             app:defaultValue="false"
             app:title="@string/pref_stop_screen_off"
             app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            app:key="animations"
+            app:defaultValue="true"
+            app:title="@string/pref_animations"
+            app:summary="@string/pref_animations_summary"
+            app:iconSpaceReserved="false" />
     </PreferenceCategory>
 </PreferenceScreen>

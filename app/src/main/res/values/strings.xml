@@ -17,10 +17,41 @@
     <string name="status_folder_missing">The iGO folder has no %1$s, weather was not written. Check that you chose the folder that contains \"save\".</string>
     <string name="warning_no_folder">iGO folder is not selected. Tap here to choose it in the settings.</string>
 
-    <string name="humidity">Humidity: %1$d%%</string>
-    <string name="pressure">Pressure: %1$d mmHg (%2$d hPa)</string>
-    <string name="wind_ms">Wind: %1$.1f m/s, %2$d°</string>
-    <string name="wind_mph">Wind: %1$.1f mph, %2$d°</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_pressure">Pressure</string>
+    <string name="label_wind">Wind</string>
+    <string name="value_percent" translatable="false">%1$d%%</string>
+    <string name="unit_mmhg">mmHg</string>
+    <string name="value_pressure">%1$s · %2$d hPa</string>
+    <string name="value_wind_ms">%1$.1f m/s</string>
+    <string name="value_wind_mph">%1$.1f mph</string>
+    <string name="wind_direction" translatable="false">%1$s, %2$d°</string>
+    <string name="temp_empty" translatable="false">—</string>
+    <string name="empty_hint">Start the service: the weather will appear here and in the iGO skin.</string>
+    <string name="toast_start_first">Start the service first</string>
+    <string-array name="compass_points">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <string name="info_title">Details</string>
+    <string name="info_coordinates">Coordinates</string>
+    <string name="info_coordinates_none">Not determined yet</string>
+    <string name="info_accuracy">Accuracy ±%1$d m</string>
+    <string name="info_navigator">Navigator</string>
+    <string name="info_navigator_autostart">Starts together with the service</string>
+    <string name="info_navigator_no_autostart">Autostart is off</string>
+    <string name="info_folder">Weather is written to</string>
+    <string name="info_profile_one">Profile 01: save/profiles/01/userlists</string>
+    <string name="info_profiles_all">Profiles 01–04: save/profiles/NN/userlists</string>
+    <string name="info_not_set">Not selected</string>
+    <string name="info_internal_storage">Internal storage</string>
+    <string name="info_sd_card">Memory card %1$s</string>
     <string name="updated_at">Updated at %1$s</string>
     <string name="attribution">Weather data by Open-Meteo.com (CC BY 4.0)</string>
 
@@ -49,6 +80,8 @@
     <string name="pref_units">Units</string>
     <string name="pref_interval">Update interval</string>
     <string name="pref_sound">Play a sound after each update</string>
+    <string name="pref_animations">Animations</string>
+    <string name="pref_animations_summary">Moving weather on the main screen. Works even when the system animations are off.</string>
     <string name="pref_stop_screen_off">Stop the service when the screen turns off</string>
 
     <string-array name="units_names">

@@ -3,7 +3,6 @@ package com.neos.weatherservice
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.provider.DocumentsContract
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
@@ -11,7 +10,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.app.AlertDialog
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
@@ -74,7 +73,7 @@ class SettingsActivity : AppCompatActivity() {
         /** Shows the launchable apps on the device, iGO builds first, and stores the chosen package. */
         private fun pickApp() {
             val context = requireContext()
-            val loading = AlertDialog.Builder(context)
+            val loading = MaterialAlertDialogBuilder(context)
                 .setTitle(R.string.pref_package)
                 .setMessage(R.string.apps_loading)
                 .show()
@@ -96,7 +95,7 @@ class SettingsActivity : AppCompatActivity() {
                         return view
                     }
                 }
-                AlertDialog.Builder(context)
+                MaterialAlertDialogBuilder(context)
                     .setTitle(R.string.pref_package)
                     .setAdapter(adapter) { _, which ->
                         prefs.navigatorPackage = apps[which].packageName
@@ -125,13 +124,7 @@ class SettingsActivity : AppCompatActivity() {
         /** "primary:iGO_avic" -> "iGO_avic" (internal storage) or "1234-ABCD:iGO" -> "SD 1234-ABCD/iGO". */
         private fun folderSummary(uri: Uri?): String {
             if (uri == null) return getString(R.string.pref_folder_not_set)
-            val id = try {
-                DocumentsContract.getTreeDocumentId(uri)
-            } catch (e: IllegalArgumentException) {
-                return uri.toString()
-            }
-            val volume = id.substringBefore(':')
-            val path = id.substringAfter(':', "")
+            val (volume, path) = Prefs.treePath(uri) ?: return uri.toString()
             return if (volume == "primary") "/$path" else "$volume/$path"
         }
     }

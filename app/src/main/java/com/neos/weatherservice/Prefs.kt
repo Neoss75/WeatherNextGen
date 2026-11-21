@@ -3,6 +3,7 @@ package com.neos.weatherservice
 import android.content.Context
 import android.content.SharedPreferences
 import android.net.Uri
+import android.provider.DocumentsContract
 import androidx.preference.PreferenceManager
 import com.neos.weatherservice.weather.Units
 
@@ -32,6 +33,17 @@ class Prefs(context: Context) {
         set(value) = sp.edit().putString(KEY_PACKAGE, value).apply()
 
     companion object {
+        /**
+         * Storage volume and path of a folder picked with the system folder picker:
+         * "primary:iGO_avic" -> ("primary", "iGO_avic"), "1234-ABCD:iGO" -> ("1234-ABCD", "iGO").
+         */
+        fun treePath(uri: Uri): Pair<String, String>? = try {
+            val id = DocumentsContract.getTreeDocumentId(uri)
+            id.substringBefore(':') to id.substringAfter(':', "")
+        } catch (e: IllegalArgumentException) {
+            null
+        }
+
         const val KEY_FOLDER = "igo_folder"
         const val KEY_ALL_PROFILES = "all_profiles"
         const val KEY_UNITS = "units"
@@ -40,5 +52,6 @@ class Prefs(context: Context) {
         const val KEY_STOP_SCREEN_OFF = "stop_on_screen_off"
         const val KEY_LAUNCH = "launch_navigator"
         const val KEY_PACKAGE = "navigator_package"
+        const val KEY_ANIMATIONS = "animations"
     }
 }

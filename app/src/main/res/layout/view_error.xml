@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/error_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:visibility="gone"
+    app:cardBackgroundColor="@color/error_container"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="0dp">
+
+    <TextView
+        android:id="@+id/error_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="12dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="@color/on_error_container"
+        app:drawableStartCompat="@drawable/ic_error"
+        app:drawableTint="@color/on_error_container" />
+</com.google.android.material.card.MaterialCardView>

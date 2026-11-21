@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hero"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:textAppearance="?attr/textAppearanceTitleMedium"
+        android:textColor="@color/on_weather"
+        android:visibility="gone"
+        app:drawableStartCompat="@drawable/ic_place"
+        app:drawableTint="@color/on_weather"
+        tools:text="Moscow, RU"
+        tools:visibility="visible" />
+
+    <com.neos.weatherservice.ui.WeatherSceneView
+        android:id="@+id/scene"
+        android:layout_width="@dimen/scene_size"
+        android:layout_height="@dimen/scene_size"
+        android:importantForAccessibility="no" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:includeFontPadding="false"
+            android:text="@string/temp_empty"
+            android:textColor="@color/on_weather"
+            android:textSize="@dimen/temp_size" />
+
+        <TextView
+            android:id="@+id/temp_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/on_weather_muted"
+            android:textSize="28sp"
+            tools:text="C" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textAppearance="?attr/textAppearanceTitleLarge"
+        android:textColor="@color/on_weather"
+        tools:text="Переменная облачность" />
+
+    <TextView
+        android:id="@+id/updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:textAppearance="?attr/textAppearanceBodySmall"
+        android:textColor="@color/on_weather_muted"
+        tools:text="Обновлено в 12:30" />
+</LinearLayout>

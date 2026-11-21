@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/status_pill"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg_pill"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="14dp"
+    android:paddingTop="6dp"
+    android:paddingEnd="14dp"
+    android:paddingBottom="6dp">
+
+    <View
+        android:id="@+id/status_dot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/bg_dot" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAppearance="?attr/textAppearanceLabelLarge"
+        android:textColor="@color/on_weather"
+        tools:text="@string/status_running" />
+</LinearLayout>

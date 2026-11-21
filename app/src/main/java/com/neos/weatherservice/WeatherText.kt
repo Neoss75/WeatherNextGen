@@ -5,6 +5,7 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.location.Geocoder
 import android.util.Log
+import com.neos.weatherservice.ui.WeatherStyle
 import com.neos.weatherservice.weather.Condition
 import com.neos.weatherservice.weather.CurrentWeather
 import com.neos.weatherservice.weather.Units
@@ -35,10 +36,15 @@ object WeatherText {
         }
     )
 
-    fun wind(context: Context, w: CurrentWeather): String = context.getString(
-        if (w.units == Units.METRIC) R.string.wind_ms else R.string.wind_mph,
-        w.windSpeed, w.windDirection,
+    fun windSpeed(context: Context, w: CurrentWeather): String = context.getString(
+        if (w.units == Units.METRIC) R.string.value_wind_ms else R.string.value_wind_mph,
+        w.windSpeed,
     )
+
+    fun windDirection(context: Context, degrees: Int): String {
+        val points = context.resources.getStringArray(R.array.compass_points)
+        return context.getString(R.string.wind_direction, points[WeatherStyle.compassIndex(degrees)], degrees)
+    }
 
     fun icon(context: Context, w: CurrentWeather): Bitmap? = try {
         context.assets.open("icon_owm/${w.icon}.png").use(BitmapFactory::decodeStream)
