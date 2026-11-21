@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_primary">#A9C7FF</color>
+    <color name="md_on_primary">#003063</color>
+    <color name="md_primary_container">#0D4A8F</color>
+    <color name="md_on_primary_container">#D6E3FF</color>
+    <color name="md_secondary">#BCC7DB</color>
+    <color name="md_secondary_container">#3C4758</color>
+    <color name="md_on_secondary_container">#D8E3F8</color>
+    <color name="md_tertiary">#FFB68E</color>
+    <color name="md_surface">#111418</color>
+    <color name="md_on_surface">#E1E2E8</color>
+</resources>

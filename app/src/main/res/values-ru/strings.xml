@@ -16,10 +16,38 @@
     <string name="status_folder_missing">В папке iGO нет %1$s, погода не записана. Проверьте, что выбрана папка, в которой лежит \"save\".</string>
     <string name="warning_no_folder">Папка iGO не выбрана. Нажмите, чтобы выбрать её в настройках.</string>
 
-    <string name="humidity">Влажность: %1$d%%</string>
-    <string name="pressure">Давление: %1$d мм рт. ст. (%2$d гПа)</string>
-    <string name="wind_ms">Ветер: %1$.1f м/с, %2$d°</string>
-    <string name="wind_mph">Ветер: %1$.1f миль/ч, %2$d°</string>
+    <string name="label_humidity">Влажность</string>
+    <string name="label_pressure">Давление</string>
+    <string name="label_wind">Ветер</string>
+    <string name="unit_mmhg">мм рт. ст.</string>
+    <string name="value_pressure">%1$s · %2$d гПа</string>
+    <string name="value_wind_ms">%1$.1f м/с</string>
+    <string name="value_wind_mph">%1$.1f миль/ч</string>
+    <string name="empty_hint">Запустите сервис — погода появится здесь и в скине iGO.</string>
+    <string name="toast_start_first">Сначала запустите сервис</string>
+    <string-array name="compass_points">
+        <item>С</item>
+        <item>СВ</item>
+        <item>В</item>
+        <item>ЮВ</item>
+        <item>Ю</item>
+        <item>ЮЗ</item>
+        <item>З</item>
+        <item>СЗ</item>
+    </string-array>
+    <string name="info_title">Дополнительно</string>
+    <string name="info_coordinates">Координаты</string>
+    <string name="info_coordinates_none">Ещё не определены</string>
+    <string name="info_accuracy">Точность ±%1$d м</string>
+    <string name="info_navigator">Навигатор</string>
+    <string name="info_navigator_autostart">Запускается вместе с сервисом</string>
+    <string name="info_navigator_no_autostart">Автозапуск выключен</string>
+    <string name="info_folder">Погода записывается в</string>
+    <string name="info_profile_one">Профиль 01: save/profiles/01/userlists</string>
+    <string name="info_profiles_all">Профили 01–04: save/profiles/NN/userlists</string>
+    <string name="info_not_set">Не выбрано</string>
+    <string name="info_internal_storage">Внутренняя память</string>
+    <string name="info_sd_card">Карта памяти %1$s</string>
     <string name="updated_at">Обновлено в %1$s</string>
     <string name="attribution">Данные о погоде: Open-Meteo.com (CC BY 4.0)</string>
 
@@ -48,6 +76,8 @@
     <string name="pref_units">Единицы</string>
     <string name="pref_interval">Период обновления</string>
     <string name="pref_sound">Звук после обновления погоды</string>
+    <string name="pref_animations">Анимации</string>
+    <string name="pref_animations_summary">Живая погода на главном экране. Работают, даже если системные анимации выключены.</string>
     <string name="pref_stop_screen_off">Останавливать сервис при выключении экрана</string>
 
     <string-array name="units_names">
