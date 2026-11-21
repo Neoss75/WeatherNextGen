@@ -18,13 +18,11 @@
             app:title="@string/pref_launch"
             app:summary="@string/pref_launch_summary"
             app:iconSpaceReserved="false" />
-        <ListPreference
+        <!-- Opens a list of the apps installed on the device (see SettingsActivity.pickApp). -->
+        <Preference
             app:key="navigator_package"
             app:dependency="launch_navigator"
-            app:entries="@array/navigator_packages"
-            app:entryValues="@array/navigator_packages"
             app:title="@string/pref_package"
-            app:useSimpleSummaryProvider="true"
             app:iconSpaceReserved="false" />
     </PreferenceCategory>
 

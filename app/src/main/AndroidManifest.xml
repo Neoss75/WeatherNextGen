@@ -12,8 +12,13 @@
     <uses-feature android:name="android.hardware.location.gps" android:required="false" />
     <uses-feature android:name="android.hardware.location.network" android:required="false" />
 
-    <!-- Android 11+ only lets us see (and launch) packages listed here. -->
+    <!-- Android 11+ only lets us see (and launch) packages declared here: every app with a
+         launcher icon, for the navigator picker, plus the known iGO builds. -->
     <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
         <package android:name="jp.pioneer.mbg.avicsync" />
         <package android:name="com.nng.igo.primong" />
         <package android:name="com.nng.igo.primogena" />

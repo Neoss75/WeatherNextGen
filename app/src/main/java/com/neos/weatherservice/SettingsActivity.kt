@@ -4,13 +4,22 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.provider.DocumentsContract
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.preference.ListPreference
+import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.neos.weatherservice.igo.IgoFolder
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -48,10 +57,53 @@ class SettingsActivity : AppCompatActivity() {
                     true
                 }
             }
-            findPreference<ListPreference>(Prefs.KEY_PACKAGE)?.setOnPreferenceChangeListener { _, value ->
-                val installed = requireContext().packageManager.getLaunchIntentForPackage(value as String) != null
-                if (!installed) Toast.makeText(requireContext(), R.string.toast_no_app, Toast.LENGTH_SHORT).show()
-                true
+            findPreference<Preference>(Prefs.KEY_PACKAGE)?.apply {
+                summary = packageSummary()
+                setOnPreferenceClickListener {
+                    pickApp()
+                    true
+                }
+            }
+        }
+
+        private fun packageSummary(): String {
+            val pkg = prefs.navigatorPackage ?: return getString(R.string.pref_package_not_set)
+            return AppList.describe(requireContext(), pkg) ?: getString(R.string.pref_package_missing, pkg)
+        }
+
+        /** Shows the launchable apps on the device, iGO builds first, and stores the chosen package. */
+        private fun pickApp() {
+            val context = requireContext()
+            val loading = AlertDialog.Builder(context)
+                .setTitle(R.string.pref_package)
+                .setMessage(R.string.apps_loading)
+                .show()
+            lifecycleScope.launch {
+                val apps = try {
+                    withContext(Dispatchers.IO) { AppList.load(context) }
+                } finally {
+                    loading.dismiss()
+                }
+                val current = prefs.navigatorPackage
+                val adapter = object : ArrayAdapter<AppEntry>(context, R.layout.item_app, apps) {
+                    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+                        val view = convertView ?: layoutInflater.inflate(R.layout.item_app, parent, false)
+                        val app = getItem(position)!!
+                        view.findViewById<ImageView>(R.id.app_icon).setImageDrawable(app.icon)
+                        view.findViewById<TextView>(R.id.app_label).text =
+                            if (app.packageName == current) getString(R.string.app_selected, app.label) else app.label
+                        view.findViewById<TextView>(R.id.app_package).text = app.packageName
+                        return view
+                    }
+                }
+                AlertDialog.Builder(context)
+                    .setTitle(R.string.pref_package)
+                    .setAdapter(adapter) { _, which ->
+                        prefs.navigatorPackage = apps[which].packageName
+                        findPreference<Preference>(Prefs.KEY_PACKAGE)?.summary = packageSummary()
+                    }
+                    .setNegativeButton(android.R.string.cancel, null)
+                    .show()
             }
         }
 
