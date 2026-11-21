@@ -6,6 +6,16 @@ Android-сервис, который показывает текущую пог�
 
 > *English:* an Android service that writes the current weather (and the weather at the route destination) into the iGO navigator profile, so a compatible skin can display it. Weather data comes from [Open-Meteo](https://open-meteo.com), no API key required. Android 5.0+.
 
+## Скриншоты
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/main.png" width="240" alt="Главный экран: погода, карточки и дополнительная информация"><br>Погода</td>
+    <td align="center"><img src="docs/screenshots/start.png" width="240" alt="Главный экран до запуска сервиса"><br>До запуска</td>
+    <td align="center"><img src="docs/screenshots/settings.png" width="240" alt="Настройки"><br>Настройки</td>
+  </tr>
+</table>
+
 ## Возможности
 
 - **Погода с [Open-Meteo](https://open-meteo.com):** бесплатно, без регистрации и ключа API, по HTTPS.
