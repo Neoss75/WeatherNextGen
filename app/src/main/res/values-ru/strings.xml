@@ -12,7 +12,8 @@
     <string name="status_stopped">Сервис остановлен</string>
     <string name="status_no_location">Ожидание координат…</string>
     <string name="status_no_internet">Нет интернета, повторю позже</string>
-    <string name="status_no_folder">Нет доступа к папке iGO, погода не записана</string>
+    <string name="status_no_folder">Нет прав на запись в папку iGO. Выберите её заново в настройках.</string>
+    <string name="status_folder_missing">В папке iGO нет %1$s, погода не записана. Проверьте, что выбрана папка, в которой лежит \"save\".</string>
     <string name="warning_no_folder">Папка iGO не выбрана. Нажмите, чтобы выбрать её в настройках.</string>
 
     <string name="humidity">Влажность: %1$d%%</string>
