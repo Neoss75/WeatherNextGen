@@ -201,11 +201,17 @@ class WeatherService : Service() {
         val folder = folder()
         val written = withContext(Dispatchers.IO) { folder?.write(IgoFormat.WEATHER_FILE, line, prefs.allProfiles) ?: 0 }
         Log.d(TAG, "weather.txt <- $line ($written files)")
+        val error = if (written > 0) null else {
+            when (val p = withContext(Dispatchers.IO) { folder?.problem() }) {
+                is IgoFolder.Problem.Missing -> getString(R.string.status_folder_missing, p.path)
+                else -> getString(R.string.status_no_folder) // no folder chosen, or access lost
+            }
+        }
 
         _status.value = Status(
             running = true, weather = weather, place = place, location = loc,
             updatedAt = System.currentTimeMillis(),
-            error = if (written == 0) getString(R.string.status_no_folder) else null,
+            error = error,
         )
         val title = "${IgoFormat.temperature(weather)}, $description"
         NotificationManagerCompat.from(this).notifySafely(buildNotification(title, place, weather))

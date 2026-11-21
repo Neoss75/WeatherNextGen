@@ -27,7 +27,9 @@ class Prefs(context: Context) {
     val playSound: Boolean get() = sp.getBoolean(KEY_SOUND, false)
     val stopOnScreenOff: Boolean get() = sp.getBoolean(KEY_STOP_SCREEN_OFF, false)
     val launchNavigator: Boolean get() = sp.getBoolean(KEY_LAUNCH, false)
-    val navigatorPackage: String? get() = sp.getString(KEY_PACKAGE, null)
+    var navigatorPackage: String?
+        get() = sp.getString(KEY_PACKAGE, null)
+        set(value) = sp.edit().putString(KEY_PACKAGE, value).apply()
 
     companion object {
         const val KEY_FOLDER = "igo_folder"
