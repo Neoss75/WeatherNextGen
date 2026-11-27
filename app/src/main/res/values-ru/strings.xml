@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="label_service">Weather сервис</string>
 
     <string name="action_refresh">Обновить</string>
     <string name="action_settings">Настройки</string>
-    <string name="action_about">Справка</string>
+    <string name="action_help">Справка</string>
 
     <string name="button_start">Запустить сервис</string>
     <string name="button_stop">Остановить сервис</string>
@@ -95,7 +95,6 @@
         <item>3 часа</item>
     </string-array>
 
-    <string name="about_text">Сервис записывает текущую погоду в профиль iGO (save/profiles/01/userlists/weather.txt), чтобы её показывал совместимый скин.\n\nЕсли скин пишет координаты точки назначения в coordinates_fin.txt, погода в точке назначения записывается в weather_fin.txt.\n\n1. В настройках выберите папку iGO (ту, в которой лежит \"save\").\n2. При желании выберите пакет навигатора, чтобы запускать его вместе с сервисом.\n3. Нажмите \"Запустить сервис\".\n\nДанные о погоде: Open-Meteo.com, CC BY 4.0.</string>
 
     <string name="cond_clear">Ясно</string>
     <string name="cond_mainly_clear">Преимущественно ясно</string>
@@ -113,4 +112,32 @@
     <string name="cond_thunderstorm">Гроза</string>
     <string name="cond_thunderstorm_hail">Гроза с градом</string>
     <string name="cond_unknown">Нет данных</string>
+    <string name="folder_found_title">Найденные папки iGO</string>
+    <string name="folder_none_found">Папки iGO не найдены</string>
+    <string name="folder_enter_path">Указать путь вручную…</string>
+    <string name="folder_path_title">Путь к папке iGO</string>
+    <string name="folder_path_hint" tools:ignore="Typos">Папка, в которой лежит \"save\", например /storage/sdcard1/iGO</string>
+    <string name="toast_storage_denied">Без доступа к памяти папку iGO не выбрать</string>
+    <string name="folder_no_picker">На устройстве нет системного окна выбора папок, а Android 11 и новее не дают выбрать папку по-другому.</string>
+    <string name="pref_cat_help">Справка</string>
+    <string name="pref_help">Справка</string>
+    <string name="pref_help_summary">Возможности программы и как её настроить</string>
+    <string name="help_1_title">Что умеет программа</string>
+    <string name="help_1_body" formatted="false"><![CDATA[Показывает текущую погоду в навигаторе iGO через совместимый скин: Primo, NextGen, Pioneer AVIC и другие сборки.<br><br>• Сервис узнаёт, где вы находитесь, получает погоду с <b>Open-Meteo</b> (бесплатно, без регистрации) и записывает её в профиль iGO.<br>• Если скин передаёт координаты точки назначения маршрута, туда же записывается погода в пункте назначения.<br>• На главном экране — температура, влажность, давление и ветер, фон и картинка меняются вместе с погодой.<br>• Пока сервис работает, в шторке висит уведомление с погодой: без него Android 8 и новее останавливает фоновые сервисы.]]></string>
+    <string name="help_2_title">Первая настройка</string>
+    <string name="help_2_body" formatted="false"><![CDATA[1. Откройте <b>Настройки → Папка iGO</b> и выберите папку навигатора — ту, в которой лежит папка <tt>save</tt>.<br>2. По желанию включите <b>Запускать iGO</b> и выберите <b>Пакет навигатора</b>.<br>3. Нажмите <b>Запустить сервис</b> и разрешите доступ к местоположению и уведомлениям.<br>4. Через несколько секунд погода появится на главном экране и в скине.<br><br>Нужны интернет и скин, который умеет показывать погоду из <tt>weather.txt</tt>.]]></string>
+    <string name="help_3_title">Папка iGO и окно выбора папок</string>
+    <string name="help_3_body" formatted="false" tools:ignore="Typos"><![CDATA[Обычно папка выбирается в системном окне Android: найдите папку с <tt>save</tt>, нажмите «Использовать эту папку» и разрешите доступ. Если не видно карты памяти, включите её показ в меню «⋮» этого окна.<br><br><b>На многих магнитолах системного окна нет.</b> Есть ли оно, видно в <b>Настройки → Системное окно выбора папок</b>, сразу под папкой iGO.<br>• <b>Android 10 и старше:</b> программа попросит доступ к памяти, сама найдёт папки iGO во внутренней памяти, на картах и флешках и покажет список. Если нужной папки в нём нет, выберите «Указать путь вручную…» и введите путь, например <tt>/storage/sdcard1/iGO</tt>.<br>• <b>Android 11 и новее</b> без системного окна выбрать папку нельзя: это ограничение самой прошивки.]]></string>
+    <string name="help_4_title">Запуск вместе с навигатором</string>
+    <string name="help_4_body" formatted="false"><![CDATA[• Включите <b>Запускать iGO</b> и выберите пакет навигатора: при старте сервиса запустится iGO, а программа закроется.<br>• Второй значок <b>«Weather сервис»</b> на рабочем столе одним нажатием запускает сервис и навигатор. Его удобно поставить вместо обычного значка iGO.<br>• Если что-то ещё не настроено, значок откроет главный экран.]]></string>
+    <string name="help_5_title">Настройки погоды</string>
+    <string name="help_5_body" formatted="false"><![CDATA[• <b>Единицы:</b> метрические (°C, м/с) или имперские (°F, миль/ч).<br>• <b>Период обновления:</b> от 10 минут до 3 часов. Обновить сразу можно кнопкой в шапке или жестом вниз.<br>• <b>Запись во все профили:</b> погода пишется в профили 01–04, а не только в 01.<br>• <b>Звук</b> после каждого обновления и <b>остановка сервиса</b> при выключении экрана.<br>• <b>Анимации:</b> если магнитола тормозит, их можно выключить.]]></string>
+    <string name="help_6_title">Файлы для скина</string>
+    <string name="help_6_body" formatted="false" tools:ignore="Typos"><![CDATA[Все файлы лежат в <tt>save/profiles/NN/userlists/</tt>, кодировка UTF-16.<br><br>• <tt>weather.txt</tt> — пишет сервис: <tt>температура;иконка.svg;описание;id</tt>, например <tt>-3°C;13n.svg;Снег;601</tt>.<br>• <tt>coordinates_fin.txt</tt> — пишет скин: <tt>широта;долгота</tt>, <tt>0;0</tt> — маршрута нет.<br>• <tt>weather_fin.txt</tt> — пишет сервис: <tt>температура;иконка.svg;место</tt>.<br><br>Иконки и коды совпадают с OpenWeatherMap, поэтому скины для версий 1.x работают без изменений. Когда сервис останавливается, файлы с погодой очищаются.]]></string>
+    <string name="help_7_title">Если что-то не так</string>
+    <string name="help_7_body" formatted="false" tools:ignore="Typos"><![CDATA[• <b>«Нет прав на запись в папку iGO»</b> — выберите папку заново в настройках.<br>• <b>«В папке iGO нет …»</b> — выбрана не та папка: нужна та, в которой лежит <tt>save</tt>.<br>• <b>«Ожидание координат…»</b> — включите геолокацию и проверьте, что у программы есть доступ к местоположению.<br>• <b>«Нет интернета»</b> — сервис сам повторит попытку позже.<br>• <b>Погода есть в программе, но не в скине</b> — проверьте, что скин умеет показывать погоду и выбран тот же профиль.<br>• <b>Не выбирается папка</b> — посмотрите пункт «Системное окно выбора папок» в настройках.<br><br>Данные о погоде: Open-Meteo.com, лицензия CC BY 4.0.]]></string>
+    <string name="pref_picker">Системное окно выбора папок</string>
+    <string name="pref_picker_yes">Есть · %1$s</string>
+    <string name="pref_picker_list">Нет. Папка iGO выбирается из найденных или по пути</string>
+    <string name="pref_picker_no_way">Нет. Android 11 и новее не дают выбрать папку по-другому</string>
 </resources>
