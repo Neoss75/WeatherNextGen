@@ -2,6 +2,7 @@ package com.neos.weatherservice
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.annotation.SuppressLint
 import android.net.Uri
 import android.provider.DocumentsContract
 import androidx.preference.PreferenceManager
@@ -37,11 +38,25 @@ class Prefs(context: Context) {
          * Storage volume and path of a folder picked with the system folder picker:
          * "primary:iGO_avic" -> ("primary", "iGO_avic"), "1234-ABCD:iGO" -> ("1234-ABCD", "iGO").
          */
-        fun treePath(uri: Uri): Pair<String, String>? = try {
+        fun treePath(uri: Uri): Pair<String, String>? = if (uri.scheme == "file") filePath(uri.path) else try {
             val id = DocumentsContract.getTreeDocumentId(uri)
             id.substringBefore(':') to id.substringAfter(':', "")
         } catch (e: IllegalArgumentException) {
             null
+        }
+
+        /** The same for a plain path: "/storage/emulated/0/iGO" -> ("primary", "iGO"). */
+        @SuppressLint("SdCardPath") // recognises paths typed by the user
+        private fun filePath(path: String?): Pair<String, String>? {
+            val p = path?.trimEnd('/') ?: return null
+            for (internal in listOf("/storage/emulated/0", "/sdcard", "/mnt/sdcard")) {
+                if (p == internal || p.startsWith("$internal/")) return "primary" to p.removePrefix(internal).trim('/')
+            }
+            if (p.startsWith("/storage/")) {
+                val rest = p.removePrefix("/storage/")
+                return rest.substringBefore('/') to rest.substringAfter('/', "")
+            }
+            return null
         }
 
         const val KEY_FOLDER = "igo_folder"

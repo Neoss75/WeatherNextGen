@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name" translatable="false">Weather NextGen</string>
     <string name="label_service">Weather service</string>
 
     <string name="action_refresh">Refresh</string>
     <string name="action_settings">Settings</string>
-    <string name="action_about">About</string>
+    <string name="action_help">About</string>
 
     <string name="button_start">Start service</string>
     <string name="button_stop">Stop service</string>
@@ -99,7 +99,6 @@
         <item>3 hours</item>
     </string-array>
 
-    <string name="about_text">The service writes the current weather into the iGO profile (save/profiles/01/userlists/weather.txt) so that a compatible skin can show it.\n\nIf the skin publishes the route destination in coordinates_fin.txt, the weather at the destination is written to weather_fin.txt.\n\n1. In the settings, choose the iGO folder (the one that contains \"save\").\n2. Optionally choose the navigator package to launch it together with the service.\n3. Press \"Start service\".\n\nWeather data: Open-Meteo.com, CC BY 4.0.</string>
 
     <string name="cond_clear">Clear sky</string>
     <string name="cond_mainly_clear">Mainly clear</string>
@@ -117,4 +116,32 @@
     <string name="cond_thunderstorm">Thunderstorm</string>
     <string name="cond_thunderstorm_hail">Thunderstorm with hail</string>
     <string name="cond_unknown">Unknown</string>
+    <string name="folder_found_title">iGO folders found</string>
+    <string name="folder_none_found">No iGO folder found</string>
+    <string name="folder_enter_path">Enter the path…</string>
+    <string name="folder_path_title">Path to the iGO folder</string>
+    <string name="folder_path_hint" tools:ignore="Typos">The folder that holds \"save\", for example /storage/sdcard1/iGO</string>
+    <string name="toast_storage_denied">The iGO folder cannot be chosen without access to the storage</string>
+    <string name="folder_no_picker">This device has no system folder picker, and Android 11 and newer allow no other way to choose a folder.</string>
+    <string name="pref_cat_help">Help</string>
+    <string name="pref_help">Help</string>
+    <string name="pref_help_summary">What the app can do and how to set it up</string>
+    <string name="help_1_title">What the app does</string>
+    <string name="help_1_body" formatted="false"><![CDATA[Shows the current weather in the iGO navigator through a compatible skin: Primo, NextGen, Pioneer AVIC and other builds.<br><br>• The service finds where you are, gets the weather from <b>Open-Meteo</b> (free, no sign-up) and writes it into the iGO profile.<br>• If the skin passes the coordinates of the route destination, the weather there is written too.<br>• The main screen shows temperature, humidity, pressure and wind; the background and picture follow the weather.<br>• While the service runs, a notification with the weather stays in the shade: without it Android 8 and newer stops background services.]]></string>
+    <string name="help_2_title">First setup</string>
+    <string name="help_2_body" formatted="false"><![CDATA[1. Open <b>Settings → iGO folder</b> and choose the navigator folder — the one that holds <tt>save</tt>.<br>2. Optionally turn on <b>Launch iGO</b> and choose the <b>Navigator package</b>.<br>3. Tap <b>Start service</b> and allow access to the location and notifications.<br>4. In a few seconds the weather appears on the main screen and in the skin.<br><br>You need internet and a skin that shows the weather from <tt>weather.txt</tt>.]]></string>
+    <string name="help_3_title">The iGO folder and the folder picker</string>
+    <string name="help_3_body" formatted="false" tools:ignore="Typos"><![CDATA[Usually the folder is chosen in the Android system picker: find the folder with <tt>save</tt>, tap “Use this folder” and allow access. If the memory card is not shown, turn it on in the picker’s “⋮” menu.<br><br><b>Many head units have no system picker.</b> Whether yours has one is shown in <b>Settings → System folder picker</b>, right below the iGO folder.<br>• <b>Android 10 and older:</b> the app asks for storage access, finds iGO folders on the internal storage, memory cards and USB drives and lists them. If the folder is not listed, choose “Enter the path…” and type it, for example <tt>/storage/sdcard1/iGO</tt>.<br>• <b>Android 11 and newer</b> without the system picker cannot choose a folder at all: this is a limit of the firmware.]]></string>
+    <string name="help_4_title">Starting with the navigator</string>
+    <string name="help_4_body" formatted="false"><![CDATA[• Turn on <b>Launch iGO</b> and choose the navigator package: iGO starts with the service and the app closes.<br>• The second icon <b>“Weather service”</b> starts the service and the navigator with one tap. It can replace the usual iGO icon.<br>• If something is not set up yet, the icon opens the main screen.]]></string>
+    <string name="help_5_title">Weather settings</string>
+    <string name="help_5_body" formatted="false"><![CDATA[• <b>Units:</b> metric (°C, m/s) or imperial (°F, mph).<br>• <b>Update period:</b> from 10 minutes to 3 hours. To update now, use the button in the toolbar or pull down.<br>• <b>Write to all profiles:</b> profiles 01–04, not only 01.<br>• <b>Sound</b> after every update and <b>stopping the service</b> when the screen turns off.<br>• <b>Animations:</b> turn them off if the head unit feels slow.]]></string>
+    <string name="help_6_title">Files for the skin</string>
+    <string name="help_6_body" formatted="false" tools:ignore="Typos"><![CDATA[All files are in <tt>save/profiles/NN/userlists/</tt>, UTF-16 encoded.<br><br>• <tt>weather.txt</tt> — written by the service: <tt>temperature;icon.svg;description;id</tt>, e.g. <tt>-3°C;13n.svg;Snow;601</tt>.<br>• <tt>coordinates_fin.txt</tt> — written by the skin: <tt>latitude;longitude</tt>, <tt>0;0</tt> — no route.<br>• <tt>weather_fin.txt</tt> — written by the service: <tt>temperature;icon.svg;place</tt>.<br><br>Icons and codes match OpenWeatherMap, so skins made for 1.x keep working. When the service stops, the weather files are cleared.]]></string>
+    <string name="help_7_title">If something goes wrong</string>
+    <string name="help_7_body" formatted="false" tools:ignore="Typos"><![CDATA[• <b>“No permission to write to the iGO folder”</b> — choose the folder again in the settings.<br>• <b>“The iGO folder has no …”</b> — wrong folder: choose the one that holds <tt>save</tt>.<br>• <b>“Waiting for coordinates…”</b> — turn on the location and check that the app may use it.<br>• <b>“No internet”</b> — the service tries again later by itself.<br>• <b>Weather in the app but not in the skin</b> — check that the skin shows weather and uses the same profile.<br>• <b>The folder cannot be chosen</b> — look at “System folder picker” in the settings.<br><br>Weather data: Open-Meteo.com, CC BY 4.0.]]></string>
+    <string name="pref_picker">System folder picker</string>
+    <string name="pref_picker_yes">Available · %1$s</string>
+    <string name="pref_picker_list">Missing. The iGO folder is chosen from the found folders or by path</string>
+    <string name="pref_picker_no_way">Missing. Android 11 and newer allow no other way to choose the folder</string>
 </resources>

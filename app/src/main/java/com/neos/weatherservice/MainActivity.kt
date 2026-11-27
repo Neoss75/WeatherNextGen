@@ -355,7 +355,7 @@ class MainActivity : AppCompatActivity() {
             val storage = if (volume == "primary") getString(R.string.info_internal_storage)
             else getString(R.string.info_sd_card, volume)
             if (path.isEmpty()) storage else "$storage/$path"
-        } ?: folder.toString()
+        } ?: folder.path ?: folder.toString()
         folderRow.setNote(getString(if (prefs.allProfiles) R.string.info_profiles_all else R.string.info_profile_one))
     }
 
@@ -522,6 +522,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun openSettings() = startActivity(Intent(this, SettingsActivity::class.java))
 
+    private fun openHelp() = startActivity(Intent(this, HelpActivity::class.java))
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main, menu)
         return true
@@ -530,14 +532,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId) {
         R.id.action_refresh -> { refresh(); true }
         R.id.action_settings -> { openSettings(); true }
-        R.id.action_about -> {
-            MaterialAlertDialogBuilder(this)
-                .setTitle(getString(R.string.app_name) + " " + BuildConfig.VERSION_NAME)
-                .setMessage(R.string.about_text)
-                .setPositiveButton(android.R.string.ok, null)
-                .show()
-            true
-        }
+        R.id.action_help -> { openHelp(); true }
         else -> super.onOptionsItemSelected(item)
     }
 

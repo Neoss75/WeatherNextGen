@@ -6,6 +6,12 @@
             app:key="igo_folder"
             app:title="@string/pref_folder"
             app:iconSpaceReserved="false" />
+        <!-- Not stored: tells whether the device has the system folder picker; opens the help. -->
+        <Preference
+            app:key="folder_picker"
+            app:persistent="false"
+            app:title="@string/pref_picker"
+            app:iconSpaceReserved="false" />
         <SwitchPreferenceCompat
             app:key="all_profiles"
             app:defaultValue="false"
@@ -58,6 +64,14 @@
             app:defaultValue="true"
             app:title="@string/pref_animations"
             app:summary="@string/pref_animations_summary"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_cat_help" app:iconSpaceReserved="false">
+        <Preference
+            app:key="help"
+            app:title="@string/pref_help"
+            app:summary="@string/pref_help_summary"
             app:iconSpaceReserved="false" />
     </PreferenceCategory>
 </PreferenceScreen>

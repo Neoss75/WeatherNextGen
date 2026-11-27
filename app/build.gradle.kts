@@ -11,8 +11,8 @@ android {
         applicationId = "com.neos.weatherservice"
         minSdk = 21
         targetSdk = 35
-        versionCode = 210
-        versionName = "2.1.0"
+        versionCode = 211
+        versionName = "2.1.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

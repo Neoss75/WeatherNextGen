@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One section of the help: icon, title and text. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_glass"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <!-- The section icon is set in code as a compound drawable. -->
+    <TextView
+        android:id="@+id/help_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="14dp"
+        android:gravity="center_vertical"
+        android:textAppearance="?attr/textAppearanceTitleMedium"
+        android:textColor="@color/on_weather"
+        app:drawableTint="@color/on_weather"
+        tools:drawableStartCompat="@drawable/ic_place"
+        tools:text="@string/help_1_title" />
+
+    <TextView
+        android:id="@+id/help_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:lineSpacingMultiplier="1.15"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="@color/on_weather"
+        android:textIsSelectable="true" />
+</LinearLayout>
